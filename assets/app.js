@@ -420,11 +420,21 @@ function matches(item, category, tokens = []) {
   if (!categoryHit) return false;
   if (!tokens.length) return true;
   const doc = searchDocuments.get(String(item.id)) || buildSearchDocument(item);
-  return tokens.every(token => doc.includes(token));
+  return tokens.every(token => tokenMatchesDocument(token, doc));
+}
+
+function tokenMatchesDocument(token, doc) {
+  if (!token) return true;
+  if (doc.raw.includes(token) || doc.compact.includes(token)) return true;
+  if (isCjkToken(token) && token.length >= 2) {
+    const collapsed = compactNormalize(token);
+    return doc.compact.includes(collapsed);
+  }
+  return false;
 }
 
 function buildSearchDocument(item) {
-  return normalize([
+  const raw = normalize([
     item.title,
     item.job_name,
     item.category,
@@ -434,23 +444,39 @@ function buildSearchDocument(item) {
     item.digest_date,
     item.schedule,
   ].join(' '));
+  return { raw, compact: compactNormalize(raw) };
 }
 
 function getQueryTokens(value) {
-  const normalized = normalize(value);
+  const normalized = normalize(value).trim();
   if (!normalized) return [];
-  return [...new Set(normalized.split(/\s+/).filter(Boolean))];
+  const baseTokens = [...new Set(normalized.split(/\s+/).filter(Boolean))];
+  if (baseTokens.length > 1) return baseTokens;
+  const only = baseTokens[0];
+  if (!isCjkToken(only)) return baseTokens;
+  const compact = compactNormalize(only);
+  const grams = [];
+  for (let i = 0; i < compact.length - 1; i += 1) grams.push(compact.slice(i, i + 2));
+  return [...new Set([compact, ...grams])];
 }
 
 function scoreItem(item, tokens) {
   if (!tokens.length) return 0;
   let score = 0;
+  const titleRaw = normalize(item.title);
+  const titleCompact = compactNormalize(item.title);
+  const jobRaw = normalize(item.job_name);
+  const headlineRaw = normalize(item.headline);
+  const summaryRaw = normalize(item.summary);
+  const contentRaw = normalize(item.final_content);
   for (const token of tokens) {
-    score += countOccurrences(normalize(item.title), token) * 10;
-    score += countOccurrences(normalize(item.job_name), token) * 6;
-    score += countOccurrences(normalize(item.headline), token) * 4;
-    score += countOccurrences(normalize(item.summary), token) * 3;
-    score += countOccurrences(normalize(item.final_content), token) * 2;
+    const compactToken = compactNormalize(token);
+    score += countOccurrences(titleRaw, token) * 10;
+    score += countOccurrences(titleCompact, compactToken) * 8;
+    score += countOccurrences(jobRaw, token) * 6;
+    score += countOccurrences(headlineRaw, token) * 4;
+    score += countOccurrences(summaryRaw, token) * 3;
+    score += countOccurrences(contentRaw, token) * 2;
   }
   return score;
 }
@@ -541,6 +567,14 @@ function formatTime(value) {
 
 function normalize(value) {
   return String(value || '').toLowerCase();
+}
+
+function compactNormalize(value) {
+  return normalize(value).replace(/[\s\p{P}\p{S}]+/gu, '');
+}
+
+function isCjkToken(value) {
+  return /[\u3400-\u9FFF\uF900-\uFAFF]/.test(String(value || ''));
 }
 
 function readParam(name) {
