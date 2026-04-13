@@ -9,66 +9,105 @@
 <body>
   <div class="shell">
     <header class="hero">
-      <div>
+      <div class="hero-copy">
         <p class="eyebrow">Hermes Daily Intelligence Board</p>
         <h1>每日执行结果信息看板</h1>
-        <p class="sub">首页先看“今日头条汇总”，下面再按类别看最新内容，并把历史归档一起带上去，方便纵向回看。</p>
+        <p class="sub">首页先看今日头条，再按类别浏览最新内容与历史归档；搜索、分类和详情页都统一到一套清晰的阅读体验里。</p>
       </div>
-      <div class="hero-meta">
-        <div class="meta-card"><span>今日内容卡片</span><strong id="totalJobs">-</strong></div>
-        <div class="meta-card"><span>最近生成</span><strong id="generatedAt">-</strong></div>
+
+      <div class="hero-side">
+        <div class="search-panel hero-search-panel">
+          <label class="search-label" for="searchInput">全文搜索</label>
+          <div class="search-row">
+            <input id="searchInput" class="search" type="search" placeholder="搜索标题 / 来源任务 / 摘要 / 正文 / 历史归档" />
+          </div>
+          <div id="searchMeta" class="search-meta"></div>
+        </div>
+
+        <div class="hero-meta">
+          <div class="meta-card"><span>今日内容卡片</span><strong id="totalJobs">-</strong></div>
+          <div class="meta-card"><span>最近生成</span><strong id="generatedAt">-</strong></div>
+        </div>
       </div>
     </header>
 
-    <section class="stats" id="stats"></section>
-
-    <section class="headline-section group">
-      <div class="group-head">
-        <h2>今日头条汇总</h2>
-        <span>把今天各定时任务的核心结果先汇在首页</span>
+    <section id="detailPage" class="detail-page" hidden>
+      <div class="detail-nav-bar">
+        <a href="#top" id="backToBoard" class="back-link">← 返回总览</a>
+        <div id="detailPager" class="detail-pager"></div>
       </div>
-      <div id="todayHeadlines" class="headline-grid"></div>
+      <article class="detail-layout">
+        <div class="detail-summary-card">
+          <p class="mini-label">详情页</p>
+          <h2 id="detailTitle">-</h2>
+          <div id="detailMeta" class="detail-meta"></div>
+          <div id="detailSearchHint" class="detail-search-hint" hidden></div>
+        </div>
+        <div class="detail-content-card">
+          <div id="detailBody" class="markdown-body"></div>
+        </div>
+      </article>
     </section>
 
-    <section class="group search-panel">
-      <div class="toolbar">
+    <main id="boardPage">
+      <section class="stats" id="stats"></section>
+
+      <section class="headline-section section-card">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">今日总览</p>
+            <h2>今日头条汇总</h2>
+          </div>
+          <span>先看今天各个定时任务的核心结果</span>
+        </div>
+        <div id="todayHeadlines" class="headline-grid"></div>
+      </section>
+
+      <section class="section-card filters-panel">
+        <div class="section-head compact-head">
+          <div>
+            <p class="section-kicker">分类筛选</p>
+            <h2>内容分类</h2>
+          </div>
+          <span>按类别快速筛内容，再结合搜索定位全文</span>
+        </div>
         <div id="categoryFilters" class="filters"></div>
-        <input id="searchInput" class="search" type="search" placeholder="全文搜索标题 / 来源任务 / 摘要 / 正文 / 历史归档" />
-      </div>
-      <div id="searchMeta" class="search-meta"></div>
-    </section>
+      </section>
 
-    <section id="searchResultsSection" class="group search-results" hidden>
-      <div class="group-head">
-        <h2>全文搜索结果</h2>
-        <span>按相关度与时间排序，支持直接打开全文</span>
-      </div>
-      <section id="searchResults" class="groups"></section>
-    </section>
+      <section id="searchResultsSection" class="section-card search-results" hidden>
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Search</p>
+            <h2>全文搜索结果</h2>
+          </div>
+          <span>按相关度与时间排序，支持直接进入详情页</span>
+        </div>
+        <section id="searchResults" class="groups"></section>
+      </section>
 
-    <section class="group">
-      <div class="group-head">
-        <h2>最新分类内容</h2>
-        <span>每个任务当前最新一版结果</span>
-      </div>
-      <section id="groupedJobs" class="groups"></section>
-    </section>
+      <section class="section-card">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Latest</p>
+            <h2>最新分类内容</h2>
+          </div>
+          <span>每个任务当前最新一版结果</span>
+        </div>
+        <section id="groupedJobs" class="groups"></section>
+      </section>
 
-    <section class="group history-wrapper">
-      <div class="group-head">
-        <h2>历史归档</h2>
-        <span>原来的历史数据也已一起带上来</span>
-      </div>
-      <section id="historySection" class="groups"></section>
-    </section>
+      <section class="section-card history-wrapper">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Archive</p>
+            <h2>历史归档</h2>
+          </div>
+          <span>保留历史结果，方便纵向回看</span>
+        </div>
+        <section id="historySection" class="groups"></section>
+      </section>
+    </main>
   </div>
-
-  <dialog id="detailDialog" class="detail-dialog">
-    <article>
-      <button id="closeDialog" class="close-btn">×</button>
-      <div id="detailBody"></div>
-    </article>
-  </dialog>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="./assets/dashboard-data.js"></script>
