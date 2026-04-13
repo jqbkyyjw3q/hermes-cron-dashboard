@@ -37,14 +37,15 @@
           </div>
           <span>搜索当前内容与历史归档</span>
         </div>
-        <div class="search-toolbar">
+        <form id="searchForm" class="search-toolbar">
           <input id="searchInput" class="plain-input" type="search" placeholder="输入关键词，例如：翻译 / Trump / 财经" />
           <select id="searchScope" class="plain-select">
             <option value="all">全部内容</option>
             <option value="today">仅今日内容</option>
             <option value="history">仅历史归档</option>
           </select>
-        </div>
+          <button type="submit" class="primary-button">搜索</button>
+        </form>
         <p id="searchSummary" class="page-summary"></p>
         <div id="searchFilters" class="filters"></div>
       </section>
