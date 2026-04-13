@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hermes 定时脚本面板</title>
+  <title>Hermes 每日信息看板</title>
   <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
   <div class="shell">
     <header class="hero">
       <div>
-        <p class="eyebrow">Hermes Cron Dashboard</p>
-        <h1>每日定时脚本分类看板</h1>
-        <p class="sub">把每天跑的 cron 任务按类型整理展示：看状态、看时间、看输出、看脚本用途。</p>
+        <p class="eyebrow">Hermes Daily Intelligence Board</p>
+        <h1>每日执行结果信息看板</h1>
+        <p class="sub">这里展示的是各定时任务执行后的最终信息，不是脚本本身。按类别归档，直接看内容、看摘要、看全文。</p>
       </div>
       <div class="hero-meta">
-        <div class="meta-card"><span>总任务数</span><strong id="totalJobs">-</strong></div>
+        <div class="meta-card"><span>信息卡片数</span><strong id="totalJobs">-</strong></div>
         <div class="meta-card"><span>最近生成</span><strong id="generatedAt">-</strong></div>
       </div>
     </header>
@@ -24,7 +24,7 @@
 
     <section class="toolbar">
       <div id="categoryFilters" class="filters"></div>
-      <input id="searchInput" class="search" type="search" placeholder="搜索任务名 / prompt / 状态" />
+      <input id="searchInput" class="search" type="search" placeholder="搜索标题 / 来源任务 / 摘要 / 内容" />
     </section>
 
     <section id="groupedJobs" class="groups"></section>
