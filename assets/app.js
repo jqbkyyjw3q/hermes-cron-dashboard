@@ -137,13 +137,17 @@ function renderTodayPage() {
   const state = { category: readParam('cat') || '全部', q: readParam('q') || '' };
   const filtersEl = document.getElementById('todayFilters');
   const inputEl = document.getElementById('todaySearchInput');
+  const formEl = document.getElementById('todaySearchForm');
   const resultsEl = document.getElementById('todayList');
   const summaryEl = document.getElementById('todaySummary');
-  if (!filtersEl || !resultsEl || !inputEl || !summaryEl) return;
+  if (!filtersEl || !resultsEl || !inputEl || !summaryEl || !formEl) return;
 
   inputEl.value = state.q;
   renderCategoryFilters(filtersEl, state.category, category => setUrlParams({ cat: category === '全部' ? '' : category, q: state.q || '' }));
-  inputEl.addEventListener('input', event => setUrlParams({ cat: state.category === '全部' ? '' : state.category, q: event.target.value.trim() || '' }));
+  formEl.addEventListener('submit', event => {
+    event.preventDefault();
+    setUrlParams({ cat: state.category === '全部' ? '' : state.category, q: inputEl.value.trim() || '' });
+  });
 
   const tokens = getQueryTokens(state.q);
   const filtered = currentItems.filter(item => matches(item, state.category, tokens));
@@ -169,45 +173,56 @@ function renderTodayPage() {
 function renderSearchPage() {
   const state = { category: readParam('cat') || '全部', q: readParam('q') || '', scope: readParam('scope') || 'all' };
   const inputEl = document.getElementById('searchInput');
+  const formEl = document.getElementById('searchForm');
   const filtersEl = document.getElementById('searchFilters');
   const scopeEl = document.getElementById('searchScope');
   const resultsEl = document.getElementById('searchResults');
   const summaryEl = document.getElementById('searchSummary');
-  if (!inputEl || !filtersEl || !scopeEl || !resultsEl || !summaryEl) return;
+  if (!inputEl || !formEl || !filtersEl || !scopeEl || !resultsEl || !summaryEl) return;
 
   inputEl.value = state.q;
   scopeEl.value = state.scope;
   renderCategoryFilters(filtersEl, state.category, category => setUrlParams({ q: state.q || '', cat: category === '全部' ? '' : category, scope: state.scope === 'all' ? '' : state.scope }));
-  inputEl.addEventListener('input', event => setUrlParams({ q: event.target.value.trim() || '', cat: state.category === '全部' ? '' : state.category, scope: state.scope === 'all' ? '' : state.scope }));
-  scopeEl.addEventListener('change', event => setUrlParams({ q: state.q || '', cat: state.category === '全部' ? '' : state.category, scope: event.target.value === 'all' ? '' : event.target.value }));
+  formEl.addEventListener('submit', event => {
+    event.preventDefault();
+    setUrlParams({ q: inputEl.value.trim() || '', cat: state.category === '全部' ? '' : state.category, scope: scopeEl.value === 'all' ? '' : scopeEl.value });
+  });
 
   const tokens = getQueryTokens(state.q);
   const pool = state.scope === 'today' ? currentItems : state.scope === 'history' ? historyItems : allItems;
-  const results = pool
-    .filter(item => matches(item, state.category, tokens))
-    .map(item => ({ item, score: scoreItem(item, tokens) }))
-    .sort((a, b) => b.score - a.score || sortByTimeDesc(a.item, b.item));
+  const results = state.q
+    ? pool
+        .filter(item => matches(item, state.category, tokens))
+        .map(item => ({ item, score: scoreItem(item, tokens) }))
+        .sort((a, b) => b.score - a.score || sortByTimeDesc(a.item, b.item))
+    : [];
 
   summaryEl.innerHTML = state.q
     ? `关键词 <strong>${escapeHtml(state.q)}</strong> 命中 <strong>${results.length}</strong> 条结果`
-    : '输入关键词后，可在当前内容与历史归档中全文检索。';
+    : '输入关键词后，点击“搜索”再执行检索。';
 
-  resultsEl.innerHTML = results.length
-    ? results.slice(0, 100).map(({ item, score }) => renderSearchResult(item, tokens, score, state)).join('')
-    : '<p class="empty">暂无匹配结果。</p>';
+  resultsEl.innerHTML = state.q
+    ? (results.length
+        ? results.slice(0, 100).map(({ item, score }) => renderSearchResult(item, tokens, score, state)).join('')
+        : '<p class="empty">暂无匹配结果。</p>')
+    : '<p class="empty">请输入关键词后点击搜索。</p>';
 }
 
 function renderArchivePage() {
   const state = { category: readParam('cat') || '全部', q: readParam('q') || '' };
   const filtersEl = document.getElementById('archiveFilters');
   const inputEl = document.getElementById('archiveSearchInput');
+  const formEl = document.getElementById('archiveSearchForm');
   const listEl = document.getElementById('archiveGroups');
   const summaryEl = document.getElementById('archiveSummary');
-  if (!filtersEl || !inputEl || !listEl || !summaryEl) return;
+  if (!filtersEl || !inputEl || !formEl || !listEl || !summaryEl) return;
 
   inputEl.value = state.q;
   renderCategoryFilters(filtersEl, state.category, category => setUrlParams({ cat: category === '全部' ? '' : category, q: state.q || '' }));
-  inputEl.addEventListener('input', event => setUrlParams({ cat: state.category === '全部' ? '' : state.category, q: event.target.value.trim() || '' }));
+  formEl.addEventListener('submit', event => {
+    event.preventDefault();
+    setUrlParams({ cat: state.category === '全部' ? '' : state.category, q: inputEl.value.trim() || '' });
+  });
 
   const tokens = getQueryTokens(state.q);
   const filtered = historyItems.filter(item => matches(item, state.category, tokens));
