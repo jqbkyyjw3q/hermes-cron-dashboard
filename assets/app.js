@@ -51,7 +51,7 @@ function renderStats() {
 
 function renderTodayHeadlines() {
   todayHeadlinesEl.innerHTML = data.today_headlines.map(item => `
-    <article class="headline-card">
+    <article class="headline-card" data-headline-title="${escapeHtml(item.title)}" data-headline-job="${escapeHtml(item.job_name || '')}">
       <div class="headline-top">
         <span class="badge ${badgeClass(item.category)}">${escapeHtml(item.category)}</span>
         <span class="headline-date">${escapeHtml(item.digest_date || '-')}</span>
@@ -59,8 +59,17 @@ function renderTodayHeadlines() {
       <h3>${escapeHtml(item.title)}</h3>
       <p class="headline-main">${escapeHtml(item.headline)}</p>
       <p class="muted">来源：${escapeHtml(item.job_name || '-')}</p>
+      <div class="actions"><button data-open-headline="${escapeHtml(item.title)}">查看详情</button></div>
     </article>
   `).join('');
+
+  todayHeadlinesEl.querySelectorAll('[data-open-headline]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const title = btn.dataset.openHeadline;
+      const item = data.current.find(x => x.title === title) || data.history.find(x => x.title === title);
+      if (item) openDetail(item);
+    });
+  });
 }
 
 function renderAll() {
@@ -162,6 +171,7 @@ function renderHistoryCard(item) {
 }
 
 function openDetail(item) {
+  const markdownHtml = renderMarkdown(item.final_content || '');
   detailBody.innerHTML = `
     <h2>${escapeHtml(item.title || item.job_name || item.id)}</h2>
     <p class="detail-line"><strong>来源任务：</strong>${escapeHtml(item.job_name || '-')}</p>
@@ -169,10 +179,19 @@ function openDetail(item) {
     <p class="detail-line"><strong>内容日期：</strong>${escapeHtml(item.digest_date || '-')}</p>
     <p class="detail-line"><strong>上次运行：</strong>${formatTime(item.last_run_at || item.digest_created_at)}</p>
     <p class="detail-line"><strong>Cron：</strong>${escapeHtml(item.schedule || '-')}</p>
-    <p class="detail-line"><strong>最终内容：</strong></p>
-    <pre>${escapeHtml(item.final_content || '')}</pre>
+    <div class="markdown-shell">
+      <div class="markdown-body">${markdownHtml}</div>
+    </div>
   `;
   detailDialog.showModal();
+}
+
+function renderMarkdown(text) {
+  if (!text) return '<p class="muted">暂无内容。</p>';
+  if (window.marked && typeof window.marked.parse === 'function') {
+    return window.marked.parse(text, { breaks: true, gfm: true });
+  }
+  return `<pre>${escapeHtml(text)}</pre>`;
 }
 
 function formatTime(v) {
