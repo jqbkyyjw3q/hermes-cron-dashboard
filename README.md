@@ -14,6 +14,8 @@ This reads local cron metadata from `/root/.hermes/cron/jobs.json` and `/root/.h
 
 ```bash
 python3 scripts/sync_to_github.py
+# or
+bash scripts/manual_sync.sh
 ```
 
 This rebuilds `assets/dashboard-data.js`, commits that file only when data changed, rebases onto `origin/main`, and pushes to GitHub so Pages can redeploy.

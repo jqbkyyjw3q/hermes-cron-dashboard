@@ -15,6 +15,7 @@ function init() {
   switch (page) {
     case 'home':
       renderHomePage();
+      bindManualSyncCopy();
       break;
     case 'today':
       renderTodayPage();
@@ -131,6 +132,21 @@ function renderHomePage() {
       </article>
     `).join('') || '<p class="empty">暂无归档预览。</p>';
   }
+}
+
+function bindManualSyncCopy() {
+  const button = document.getElementById('copyManualSyncBtn');
+  const hint = document.getElementById('manualSyncHint');
+  if (!button || !hint) return;
+  const command = 'cd /root/projects/hermes-cron-dashboard && python3 scripts/sync_to_github.py';
+  button.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(command);
+      hint.innerHTML = '已复制命令：<code>' + escapeHtml(command) + '</code>';
+    } catch (error) {
+      hint.innerHTML = '复制失败，请手动执行：<code>' + escapeHtml(command) + '</code>';
+    }
+  });
 }
 
 function renderTodayPage() {

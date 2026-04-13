@@ -55,11 +55,13 @@
         <section class="stats-card sync-status-card">
           <p class="micro-kicker">Sync</p>
           <h2>数据同步</h2>
-          <p class="page-summary compact">已加入每日 15:00 自动同步到 GitHub 并部署。需要时可以直接刷新页面，或去仓库查看最新提交。</p>
+          <p class="page-summary compact">已加入每日 15:00 自动同步到 GitHub 并部署。手动同步也已补上：可一键复制本机执行命令。</p>
           <div class="hero-links compact-links">
             <a class="hero-link" href="https://github.com/jqbkyyjw3q/hermes-cron-dashboard" target="_blank" rel="noreferrer">查看仓库</a>
             <button class="ghost-link plain-button" type="button" onclick="window.location.reload()">刷新页面</button>
+            <button id="copyManualSyncBtn" class="ghost-link plain-button" type="button">复制手动同步命令</button>
           </div>
+          <p id="manualSyncHint" class="toolbar-note compact">命令：<code>cd /root/projects/hermes-cron-dashboard && python3 scripts/sync_to_github.py</code></p>
           <section class="overview-stats" id="homeStats"></section>
         </section>
       </aside>

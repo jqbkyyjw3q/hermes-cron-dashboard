@@ -212,7 +212,8 @@ button, input, select { font: inherit; }
   font-size: 14px;
   line-height: 1.65;
 }
-.page-summary.compact {
+.page-summary.compact,
+.toolbar-note.compact {
   margin: 0;
 }
 .search-meta strong,

@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generated_at": "2026-04-13T19:17:05.336891",
+  "generated_at": "2026-04-13T19:24:41.663952",
   "stats": {
     "total_current_cards": 7,
     "total_history_cards": 235,
