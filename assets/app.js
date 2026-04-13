@@ -1,11 +1,12 @@
-const data = window.DASHBOARD_DATA || { current: [], history: [], stats: { categories: {} }, today_headlines: [] };
-const currentItems = Array.isArray(data.current) ? data.current : [];
-const historyItems = Array.isArray(data.history) ? data.history : [];
+const rawData = window.DASHBOARD_DATA || { current: [], history: [], stats: { categories: {} }, today_headlines: [] };
+const page = document.body.dataset.page || 'home';
+
+const currentItems = normalizeCollection(rawData.current || []);
+const historyItems = normalizeCollection(rawData.history || []);
 const allItems = [...currentItems, ...historyItems];
 const itemById = new Map(allItems.map(item => [String(item.id), item]));
-const categories = ['全部', ...Object.keys(data.stats.categories || {}).sort()];
+const categories = ['全部', ...new Set(allItems.map(item => item.category).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
 const searchDocuments = new Map(allItems.map(item => [String(item.id), buildSearchDocument(item)]));
-const page = document.body.dataset.page || 'home';
 
 init();
 
@@ -32,11 +33,29 @@ function init() {
   }
 }
 
+function normalizeCollection(items) {
+  return items
+    .filter(Boolean)
+    .filter(item => !isNoiseItem(item))
+    .map(item => ({
+      ...item,
+      title: item.title || item.job_name || item.id,
+      summary: cleanPreview(item.summary || ''),
+      headline: cleanPreview(item.headline || ''),
+      final_content: String(item.final_content || ''),
+    }));
+}
+
+function isNoiseItem(item) {
+  const text = normalize([item.title, item.job_name, item.summary, item.final_content].join(' '));
+  return text.includes('hermes migration test') || text.includes('test content hello hermes');
+}
+
 function hydrateTopbar() {
   const totalJobsEl = document.getElementById('totalJobs');
   const generatedAtEl = document.getElementById('generatedAt');
-  if (totalJobsEl) totalJobsEl.textContent = data.stats.total_current_cards ?? currentItems.length;
-  if (generatedAtEl) generatedAtEl.textContent = formatTime(data.generated_at);
+  if (totalJobsEl) totalJobsEl.textContent = currentItems.length;
+  if (generatedAtEl) generatedAtEl.textContent = formatTime(rawData.generated_at);
 }
 
 function renderHomePage() {
@@ -44,9 +63,14 @@ function renderHomePage() {
   const headlinesEl = document.getElementById('todayHeadlines');
   const categoryOverviewEl = document.getElementById('categoryOverview');
   const archivePreviewEl = document.getElementById('archivePreview');
+
   if (statsEl) statsEl.innerHTML = renderStatsCards();
+
   if (headlinesEl) {
-    headlinesEl.innerHTML = (data.today_headlines || []).slice(0, 6).map(item => {
+    const headlines = (rawData.today_headlines || [])
+      .filter(item => !isNoiseItem(item))
+      .slice(0, 6);
+    headlinesEl.innerHTML = headlines.map(item => {
       const target = findItem(item);
       return `
         <article class="story-card">
@@ -55,13 +79,13 @@ function renderHomePage() {
             <span class="story-date">${escapeHtml(item.digest_date || '-')}</span>
           </div>
           <h3>${escapeHtml(item.title || '-')}</h3>
-          <p>${escapeHtml(item.headline || item.summary || '暂无摘要')}</p>
+          <p>${escapeHtml(cleanPreview(item.headline || item.summary || '暂无摘要'))}</p>
           <div class="card-actions">
-            <a class="text-link" href="${itemUrl(target?.id || '')}">查看详情</a>
+            <a class="text-link" href="${itemUrl(target?.id || '', 'home')}">查看详情</a>
           </div>
         </article>
       `;
-    }).join('');
+    }).join('') || '<p class="empty">暂无今日头条。</p>';
   }
 
   if (categoryOverviewEl) {
@@ -76,12 +100,15 @@ function renderHomePage() {
             </div>
             <a class="text-link" href="today.html?cat=${encodeURIComponent(category)}">查看全部</a>
           </div>
-          <div class="stack-list">
+          <div class="stack-list compact-list">
             ${items.map(item => `
-              <a class="list-link" href="${itemUrl(item.id)}">
-                <strong>${escapeHtml(item.title || item.job_name || item.id)}</strong>
-                <span>${escapeHtml(item.summary || item.headline || '暂无摘要')}</span>
-              </a>
+              <article class="mini-entry">
+                <div>
+                  <strong>${escapeHtml(item.title)}</strong>
+                  <span>${escapeHtml(buildSnippet(item, [], item.summary || item.headline || '暂无摘要'))}</span>
+                </div>
+                <a class="text-link" href="${itemUrl(item.id, 'today', '', category)}">详情</a>
+              </article>
             `).join('')}
           </div>
         </section>
@@ -92,22 +119,22 @@ function renderHomePage() {
   if (archivePreviewEl) {
     const latestHistory = [...historyItems].sort(sortByTimeDesc).slice(0, 8);
     archivePreviewEl.innerHTML = latestHistory.map(item => `
-      <a class="archive-row" href="${itemUrl(item.id)}">
+      <article class="archive-row">
         <div>
-          <strong>${escapeHtml(item.title || item.job_name || item.id)}</strong>
-          <p>${escapeHtml(item.summary || item.headline || '')}</p>
+          <strong>${escapeHtml(item.title)}</strong>
+          <p>${escapeHtml(buildSnippet(item, [], item.summary || item.headline || '暂无摘要'))}</p>
         </div>
-        <span>${escapeHtml(item.digest_date || '-')}</span>
-      </a>
-    `).join('');
+        <div class="archive-row-side">
+          <span>${escapeHtml(item.digest_date || '-')}</span>
+          <a class="text-link" href="${itemUrl(item.id, 'archive')}">详情</a>
+        </div>
+      </article>
+    `).join('') || '<p class="empty">暂无归档预览。</p>';
   }
 }
 
 function renderTodayPage() {
-  const state = {
-    category: readParam('cat') || '全部',
-    q: readParam('q') || '',
-  };
+  const state = { category: readParam('cat') || '全部', q: readParam('q') || '' };
   const filtersEl = document.getElementById('todayFilters');
   const inputEl = document.getElementById('todaySearchInput');
   const resultsEl = document.getElementById('todayList');
@@ -115,21 +142,15 @@ function renderTodayPage() {
   if (!filtersEl || !resultsEl || !inputEl || !summaryEl) return;
 
   inputEl.value = state.q;
-  renderCategoryFilters(filtersEl, state.category, category => {
-    setUrlParams({ cat: category === '全部' ? '' : category, q: state.q || '' });
-  });
-
-  inputEl.addEventListener('input', event => {
-    setUrlParams({ cat: state.category === '全部' ? '' : state.category, q: event.target.value.trim() || '' });
-  });
+  renderCategoryFilters(filtersEl, state.category, category => setUrlParams({ cat: category === '全部' ? '' : category, q: state.q || '' }));
+  inputEl.addEventListener('input', event => setUrlParams({ cat: state.category === '全部' ? '' : state.category, q: event.target.value.trim() || '' }));
 
   const tokens = getQueryTokens(state.q);
   const filtered = currentItems.filter(item => matches(item, state.category, tokens));
   summaryEl.innerHTML = `今天共 <strong>${filtered.length}</strong> 条内容${state.category !== '全部' ? `，当前分类：<strong>${escapeHtml(state.category)}</strong>` : ''}${state.q ? `，关键词：<strong>${escapeHtml(state.q)}</strong>` : ''}`;
 
-  const groups = {};
-  for (const item of filtered) (groups[item.category] ||= []).push(item);
-  resultsEl.innerHTML = Object.keys(groups).sort().map(category => `
+  const groups = groupBy(filtered, item => item.category);
+  resultsEl.innerHTML = Object.keys(groups).sort((a, b) => a.localeCompare(b, 'zh-CN')).map(category => `
     <section class="list-section">
       <div class="section-head compact">
         <div>
@@ -139,18 +160,14 @@ function renderTodayPage() {
         <span>${groups[category].length} 条</span>
       </div>
       <div class="card-grid">
-        ${groups[category].sort(sortByTimeDesc).map(item => renderItemCard(item, tokens)).join('')}
+        ${groups[category].sort(sortByTimeDesc).map(item => renderItemCard(item, tokens, 'today', state.q, state.category)).join('')}
       </div>
     </section>
   `).join('') || '<p class="empty">没有匹配结果。</p>';
 }
 
 function renderSearchPage() {
-  const state = {
-    category: readParam('cat') || '全部',
-    q: readParam('q') || '',
-    scope: readParam('scope') || 'all',
-  };
+  const state = { category: readParam('cat') || '全部', q: readParam('q') || '', scope: readParam('scope') || 'all' };
   const inputEl = document.getElementById('searchInput');
   const filtersEl = document.getElementById('searchFilters');
   const scopeEl = document.getElementById('searchScope');
@@ -160,18 +177,9 @@ function renderSearchPage() {
 
   inputEl.value = state.q;
   scopeEl.value = state.scope;
-
-  renderCategoryFilters(filtersEl, state.category, category => {
-    setUrlParams({ q: state.q || '', cat: category === '全部' ? '' : category, scope: state.scope === 'all' ? '' : state.scope });
-  });
-
-  inputEl.addEventListener('input', event => {
-    setUrlParams({ q: event.target.value.trim() || '', cat: state.category === '全部' ? '' : state.category, scope: state.scope === 'all' ? '' : state.scope });
-  });
-
-  scopeEl.addEventListener('change', event => {
-    setUrlParams({ q: state.q || '', cat: state.category === '全部' ? '' : state.category, scope: event.target.value === 'all' ? '' : event.target.value });
-  });
+  renderCategoryFilters(filtersEl, state.category, category => setUrlParams({ q: state.q || '', cat: category === '全部' ? '' : category, scope: state.scope === 'all' ? '' : state.scope }));
+  inputEl.addEventListener('input', event => setUrlParams({ q: event.target.value.trim() || '', cat: state.category === '全部' ? '' : state.category, scope: state.scope === 'all' ? '' : state.scope }));
+  scopeEl.addEventListener('change', event => setUrlParams({ q: state.q || '', cat: state.category === '全部' ? '' : state.category, scope: event.target.value === 'all' ? '' : event.target.value }));
 
   const tokens = getQueryTokens(state.q);
   const pool = state.scope === 'today' ? currentItems : state.scope === 'history' ? historyItems : allItems;
@@ -185,15 +193,12 @@ function renderSearchPage() {
     : '输入关键词后，可在当前内容与历史归档中全文检索。';
 
   resultsEl.innerHTML = results.length
-    ? results.slice(0, 100).map(({ item, score }) => renderSearchResult(item, tokens, score)).join('')
+    ? results.slice(0, 100).map(({ item, score }) => renderSearchResult(item, tokens, score, state)).join('')
     : '<p class="empty">暂无匹配结果。</p>';
 }
 
 function renderArchivePage() {
-  const state = {
-    category: readParam('cat') || '全部',
-    q: readParam('q') || '',
-  };
+  const state = { category: readParam('cat') || '全部', q: readParam('q') || '' };
   const filtersEl = document.getElementById('archiveFilters');
   const inputEl = document.getElementById('archiveSearchInput');
   const listEl = document.getElementById('archiveGroups');
@@ -201,19 +206,14 @@ function renderArchivePage() {
   if (!filtersEl || !inputEl || !listEl || !summaryEl) return;
 
   inputEl.value = state.q;
-  renderCategoryFilters(filtersEl, state.category, category => {
-    setUrlParams({ cat: category === '全部' ? '' : category, q: state.q || '' });
-  });
-  inputEl.addEventListener('input', event => {
-    setUrlParams({ cat: state.category === '全部' ? '' : state.category, q: event.target.value.trim() || '' });
-  });
+  renderCategoryFilters(filtersEl, state.category, category => setUrlParams({ cat: category === '全部' ? '' : category, q: state.q || '' }));
+  inputEl.addEventListener('input', event => setUrlParams({ cat: state.category === '全部' ? '' : state.category, q: event.target.value.trim() || '' }));
 
   const tokens = getQueryTokens(state.q);
   const filtered = historyItems.filter(item => matches(item, state.category, tokens));
   summaryEl.innerHTML = `历史归档共 <strong>${filtered.length}</strong> 条${state.category !== '全部' ? `，当前分类：<strong>${escapeHtml(state.category)}</strong>` : ''}`;
 
-  const grouped = {};
-  for (const item of filtered) (grouped[item.digest_date || '未标记日期'] ||= []).push(item);
+  const grouped = groupBy(filtered, item => item.digest_date || '未标记日期');
   listEl.innerHTML = Object.keys(grouped).sort().reverse().map(date => `
     <section class="list-section">
       <div class="section-head compact">
@@ -224,7 +224,7 @@ function renderArchivePage() {
         <span>${grouped[date].length} 条</span>
       </div>
       <div class="archive-stack">
-        ${grouped[date].sort(sortByTimeDesc).map(item => renderArchiveRow(item, tokens)).join('')}
+        ${grouped[date].sort(sortByTimeDesc).map(item => renderArchiveRow(item, tokens, state)).join('')}
       </div>
     </section>
   `).join('') || '<p class="empty">暂无归档内容。</p>';
@@ -238,7 +238,8 @@ function renderItemPage() {
   const bodyEl = document.getElementById('detailBody');
   const pagerEl = document.getElementById('detailPager');
   const contextEl = document.getElementById('detailContext');
-  if (!titleEl || !metaEl || !bodyEl || !pagerEl || !contextEl) return;
+  const backEl = document.getElementById('backToBoard');
+  if (!titleEl || !metaEl || !bodyEl || !pagerEl || !contextEl || !backEl) return;
 
   if (!item) {
     titleEl.textContent = '未找到内容';
@@ -248,8 +249,15 @@ function renderItemPage() {
     return;
   }
 
-  document.title = `${item.title || item.job_name || item.id} - Hermes 每日信息看板`;
-  titleEl.textContent = item.title || item.job_name || item.id;
+  const sourcePage = readParam('from') || inferSourcePage(item);
+  const sourceQ = readParam('q') || '';
+  const sourceCat = readParam('cat') || '';
+  const sourceScope = readParam('scope') || '';
+  const backHref = backUrl(sourcePage, sourceQ, sourceCat, sourceScope);
+
+  document.title = `${item.title} - Hermes 每日信息看板`;
+  titleEl.textContent = item.title;
+  backEl.href = backHref;
   metaEl.innerHTML = `
     <div><dt>来源任务</dt><dd>${escapeHtml(item.job_name || '-')}</dd></div>
     <div><dt>分类</dt><dd>${escapeHtml(item.category || '-')}</dd></div>
@@ -258,24 +266,19 @@ function renderItemPage() {
     <div><dt>Cron</dt><dd>${escapeHtml(item.schedule || '-')}</dd></div>
     <div><dt>状态</dt><dd>${escapeHtml(item.last_status || '-')}</dd></div>
   `;
-
-  const sourcePage = readParam('from') || inferSourcePage(item);
-  contextEl.innerHTML = `
-    <a class="text-link" href="${backUrl(sourcePage, readParam('q'), readParam('cat'), readParam('scope'))}">返回${sourcePageLabel(sourcePage)}</a>
-  `;
-
+  contextEl.innerHTML = `<a class="text-link" href="${backHref}">返回${sourcePageLabel(sourcePage)}</a>`;
   bodyEl.innerHTML = renderMarkdown(item.final_content || item.summary || '暂无内容。');
-  renderItemPager(item, pagerEl);
+  renderItemPager(item, pagerEl, sourcePage, sourceQ, sourceCat, sourceScope);
 }
 
-function renderItemPager(item, pagerEl) {
+function renderItemPager(item, pagerEl, from, q, cat, scope) {
   const siblings = allItems.filter(candidate => candidate.category === item.category).sort(sortByTimeDesc);
   const index = siblings.findIndex(candidate => String(candidate.id) === String(item.id));
   const prev = index > 0 ? siblings[index - 1] : null;
   const next = index >= 0 && index < siblings.length - 1 ? siblings[index + 1] : null;
   pagerEl.innerHTML = `
-    ${prev ? `<a class="ghost-link" href="${itemUrl(prev.id)}">← 上一篇</a>` : '<span class="ghost-link disabled">← 上一篇</span>'}
-    ${next ? `<a class="ghost-link" href="${itemUrl(next.id)}">下一篇 →</a>` : '<span class="ghost-link disabled">下一篇 →</span>'}
+    ${prev ? `<a class="ghost-link" href="${itemUrl(prev.id, from, q, cat, scope)}">← 上一篇</a>` : '<span class="ghost-link disabled">← 上一篇</span>'}
+    ${next ? `<a class="ghost-link" href="${itemUrl(next.id, from, q, cat, scope)}">下一篇 →</a>` : '<span class="ghost-link disabled">下一篇 →</span>'}
   `;
 }
 
@@ -283,7 +286,7 @@ function renderStatsCards() {
   const stats = [
     ['今日内容卡片', currentItems.length],
     ['历史条目', historyItems.length],
-    ['今日日期', data.stats.today_date || '-'],
+    ['今日日期', rawData.stats?.today_date || '-'],
   ];
   return stats.map(([label, value]) => `
     <article class="stat-card">
@@ -297,18 +300,16 @@ function renderCategoryFilters(root, activeCategory, onNavigate) {
   root.innerHTML = categories.map(category => `
     <button class="filter-btn ${category === activeCategory ? 'active' : ''}" data-cat="${escapeHtml(category)}">${escapeHtml(category)}</button>
   `).join('');
-  root.querySelectorAll('[data-cat]').forEach(button => {
-    button.addEventListener('click', () => onNavigate(button.dataset.cat));
-  });
+  root.querySelectorAll('[data-cat]').forEach(button => button.addEventListener('click', () => onNavigate(button.dataset.cat)));
 }
 
-function renderItemCard(item, tokens) {
+function renderItemCard(item, tokens, fromPage, query = '', category = '') {
   return `
     <article class="item-card">
       <div class="item-card-head">
         <div>
           <p class="micro-kicker">${escapeHtml(item.job_name || '来源任务')}</p>
-          <h3>${highlightText(item.title || item.job_name || item.id, tokens)}</h3>
+          <h3>${highlightText(item.title, tokens)}</h3>
         </div>
         <span class="badge">${escapeHtml(item.category || '未分类')}</span>
       </div>
@@ -318,19 +319,19 @@ function renderItemCard(item, tokens) {
         <div><dt>上次运行</dt><dd>${formatTime(item.last_run_at || item.digest_created_at)}</dd></div>
       </dl>
       <div class="card-actions">
-        <a class="text-link" href="${itemUrl(item.id)}">查看详情</a>
+        <a class="text-link" href="${itemUrl(item.id, fromPage, query, category)}">查看详情</a>
       </div>
     </article>
   `;
 }
 
-function renderSearchResult(item, tokens, score) {
+function renderSearchResult(item, tokens, score, state) {
   return `
     <article class="search-result">
       <div class="item-card-head">
         <div>
           <p class="micro-kicker">${escapeHtml(item.job_name || '来源任务')}</p>
-          <h3>${highlightText(item.title || item.job_name || item.id, tokens)}</h3>
+          <h3>${highlightText(item.title, tokens)}</h3>
         </div>
         <div class="result-side">
           <span class="badge">${escapeHtml(item.category || '未分类')}</span>
@@ -343,28 +344,34 @@ function renderSearchResult(item, tokens, score) {
         <span>${formatTime(item.last_run_at || item.digest_created_at)}</span>
       </div>
       <div class="card-actions">
-        <a class="text-link" href="${itemUrl(item.id, 'search')}">进入详情页</a>
+        <a class="text-link" href="${itemUrl(item.id, 'search', state.q, state.category, state.scope)}">进入详情页</a>
       </div>
     </article>
   `;
 }
 
-function renderArchiveRow(item, tokens) {
+function renderArchiveRow(item, tokens, state) {
   return `
-    <a class="archive-row" href="${itemUrl(item.id, 'archive')}">
+    <article class="archive-row">
       <div>
-        <strong>${highlightText(item.title || item.job_name || item.id, tokens)}</strong>
+        <strong>${highlightText(item.title, tokens)}</strong>
         <p>${highlightText(buildSnippet(item, tokens, item.summary || item.headline || ''), tokens)}</p>
       </div>
-      <span>${escapeHtml(item.category || '未分类')}</span>
-    </a>
+      <div class="archive-row-side">
+        <span>${escapeHtml(item.category || '未分类')}</span>
+        <a class="text-link" href="${itemUrl(item.id, 'archive', state.q, state.category)}">详情</a>
+      </div>
+    </article>
   `;
 }
 
-function itemUrl(itemId, source = '') {
+function itemUrl(itemId, from = '', q = '', cat = '', scope = '') {
   const params = new URLSearchParams();
   params.set('id', itemId || '');
-  if (source) params.set('from', source);
+  if (from) params.set('from', from);
+  if (q) params.set('q', q);
+  if (cat && cat !== '全部') params.set('cat', cat);
+  if (scope && scope !== 'all') params.set('scope', scope);
   return `item.html?${params.toString()}`;
 }
 
@@ -372,20 +379,20 @@ function backUrl(source, q, cat, scope) {
   if (source === 'search') {
     const params = new URLSearchParams();
     if (q) params.set('q', q);
-    if (cat) params.set('cat', cat);
-    if (scope) params.set('scope', scope);
+    if (cat && cat !== '全部') params.set('cat', cat);
+    if (scope && scope !== 'all') params.set('scope', scope);
     return `search.html${params.toString() ? `?${params.toString()}` : ''}`;
   }
   if (source === 'archive') {
     const params = new URLSearchParams();
     if (q) params.set('q', q);
-    if (cat) params.set('cat', cat);
+    if (cat && cat !== '全部') params.set('cat', cat);
     return `archive.html${params.toString() ? `?${params.toString()}` : ''}`;
   }
   if (source === 'today') {
     const params = new URLSearchParams();
     if (q) params.set('q', q);
-    if (cat) params.set('cat', cat);
+    if (cat && cat !== '全部') params.set('cat', cat);
     return `today.html${params.toString() ? `?${params.toString()}` : ''}`;
   }
   return 'index.html';
@@ -402,18 +409,18 @@ function inferSourcePage(item) {
   return currentItems.some(current => String(current.id) === String(item.id)) ? 'today' : 'archive';
 }
 
-function matches(item, category, tokens = []) {
-  const hitCategory = category === '全部' || item.category === category;
-  if (!hitCategory) return false;
-  if (!tokens.length) return true;
-  const doc = searchDocuments.get(String(item.id)) || buildSearchDocument(item);
-  return tokens.every(token => doc.includes(token));
-}
-
 function findItem(item) {
   return allItems.find(candidate => candidate.title === item.title && candidate.digest_date === item.digest_date)
     || allItems.find(candidate => candidate.title === item.title)
     || null;
+}
+
+function matches(item, category, tokens = []) {
+  const categoryHit = category === '全部' || item.category === category;
+  if (!categoryHit) return false;
+  if (!tokens.length) return true;
+  const doc = searchDocuments.get(String(item.id)) || buildSearchDocument(item);
+  return tokens.every(token => doc.includes(token));
 }
 
 function buildSearchDocument(item) {
@@ -450,18 +457,18 @@ function scoreItem(item, tokens) {
 
 function buildSnippet(item, tokens, fallback = '') {
   const source = stripMarkdown(item.final_content || item.summary || item.headline || fallback || '');
-  const clean = source.replace(/\s+/g, ' ').trim();
+  const clean = cleanPreview(source);
   if (!clean) return fallback || '暂无内容';
-  if (!tokens.length) return truncate(clean, 160);
+  if (!tokens.length) return truncate(clean, 110);
   const lower = clean.toLowerCase();
   let firstIndex = -1;
   for (const token of tokens) {
     const idx = lower.indexOf(token.toLowerCase());
     if (idx !== -1 && (firstIndex === -1 || idx < firstIndex)) firstIndex = idx;
   }
-  if (firstIndex === -1) return truncate(clean, 160);
-  const start = Math.max(0, firstIndex - 52);
-  const end = Math.min(clean.length, firstIndex + 160);
+  if (firstIndex === -1) return truncate(clean, 110);
+  const start = Math.max(0, firstIndex - 40);
+  const end = Math.min(clean.length, firstIndex + 120);
   return `${start > 0 ? '…' : ''}${clean.slice(start, end).trim()}${end < clean.length ? '…' : ''}`;
 }
 
@@ -482,6 +489,10 @@ function renderMarkdown(text) {
   return `<pre>${escapeHtml(text)}</pre>`;
 }
 
+function cleanPreview(text) {
+  return String(text || '').replace(/\s+/g, ' ').replace(/^#+\s*/g, '').trim();
+}
+
 function stripMarkdown(text) {
   return String(text || '')
     .replace(/```[\s\S]*?```/g, ' ')
@@ -490,6 +501,14 @@ function stripMarkdown(text) {
     .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
     .replace(/^[>#\-*+\d.\s]+/gm, ' ')
     .replace(/[\*_~|]/g, ' ');
+}
+
+function groupBy(items, fn) {
+  return items.reduce((acc, item) => {
+    const key = fn(item);
+    (acc[key] ||= []).push(item);
+    return acc;
+  }, {});
 }
 
 function sortByTimeDesc(a, b) {
