@@ -230,6 +230,18 @@ button, input, select { font: inherit; }
   flex-direction: column;
   gap: 14px;
 }
+.mini-entry {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: start;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+}
+.mini-entry strong { display: block; margin-bottom: 6px; font-size: 15px; }
+.mini-entry span { color: var(--text-2); line-height: 1.7; font-size: 14px; }
 .story-meta-row,
 .item-card-head {
   display: flex;
@@ -292,6 +304,14 @@ dt { color: var(--text-2); }
   grid-template-columns: 1fr auto;
   align-items: start;
   gap: 16px;
+}
+.archive-row-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  color: var(--text-3);
+  font-size: 12px;
 }
 .list-link strong,
 .archive-row strong { font-size: 15px; }
@@ -450,8 +470,9 @@ mark {
   .item-card-head,
   .story-meta-row,
   .detail-nav-bar,
-  .search-toolbar,
-  .archive-row { flex-direction: column; align-items: flex-start; grid-template-columns: 1fr; }
+  .search-toolbar { flex-direction: column; align-items: flex-start; }
+  .archive-row,
+  .mini-entry { grid-template-columns: 1fr; }
   .topbar { align-items: flex-start; }
   .meta-grid,
   .detail-meta,
