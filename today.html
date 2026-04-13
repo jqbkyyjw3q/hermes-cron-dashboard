@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>今日内容 - Hermes 每日信息看板</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body data-page="today">
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand-block">
+        <p class="micro-kicker">Hermes</p>
+        <strong>Daily Intelligence Board</strong>
+      </div>
+      <nav class="topbar-nav">
+        <a href="index.html">首页</a>
+        <a class="active" href="today.html">今日内容</a>
+        <a href="search.html">搜索</a>
+        <a href="archive.html">历史归档</a>
+      </nav>
+      <div class="topbar-meta">
+        <span class="topbar-chip">今日卡片 <strong id="totalJobs">-</strong></span>
+        <span class="topbar-chip">最近生成 <strong id="generatedAt">-</strong></span>
+      </div>
+    </header>
+
+    <main class="board-layout">
+      <section class="section-card">
+        <div class="section-head">
+          <div>
+            <p class="micro-kicker">Today</p>
+            <h2>今日全部内容</h2>
+          </div>
+          <span>这一页只看今天的最新结果</span>
+        </div>
+        <div class="search-toolbar">
+          <input id="todaySearchInput" class="plain-input" type="search" placeholder="搜索今天的标题 / 来源 / 内容" />
+        </div>
+        <p id="todaySummary" class="page-summary"></p>
+        <div id="todayFilters" class="filters"></div>
+      </section>
+
+      <section class="section-card">
+        <section id="todayList" class="groups"></section>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="./assets/dashboard-data.js"></script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
