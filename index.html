@@ -30,9 +30,20 @@
       <div id="todayHeadlines" class="headline-grid"></div>
     </section>
 
-    <section class="toolbar">
-      <div id="categoryFilters" class="filters"></div>
-      <input id="searchInput" class="search" type="search" placeholder="搜索标题 / 来源任务 / 摘要 / 内容" />
+    <section class="group search-panel">
+      <div class="toolbar">
+        <div id="categoryFilters" class="filters"></div>
+        <input id="searchInput" class="search" type="search" placeholder="全文搜索标题 / 来源任务 / 摘要 / 正文 / 历史归档" />
+      </div>
+      <div id="searchMeta" class="search-meta"></div>
+    </section>
+
+    <section id="searchResultsSection" class="group search-results" hidden>
+      <div class="group-head">
+        <h2>全文搜索结果</h2>
+        <span>按相关度与时间排序，支持直接打开全文</span>
+      </div>
+      <section id="searchResults" class="groups"></section>
     </section>
 
     <section class="group">
