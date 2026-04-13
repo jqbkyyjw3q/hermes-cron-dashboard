@@ -384,13 +384,29 @@ mark {
 .ghost-link.disabled { opacity: .5; pointer-events: none; }
 .detail-layout {
   display: grid;
-  grid-template-columns: minmax(280px, 320px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 16px;
   align-items: start;
 }
-.detail-summary-card { position: sticky; top: 20px; }
-.detail-summary-card h2 { margin-bottom: 14px; line-height: 1.2; }
+.detail-layout.single-column {
+  grid-template-columns: minmax(0, 1fr);
+}
+.detail-article-card {
+  padding: 26px 28px;
+}
+.detail-header-block {
+  padding-bottom: 18px;
+  margin-bottom: 22px;
+  border-bottom: 1px solid var(--border);
+}
+.detail-header-block h1 {
+  margin: 0 0 14px;
+  font-size: clamp(30px, 4vw, 42px);
+  line-height: 1.14;
+  letter-spacing: -0.03em;
+}
 .detail-search-hint {
+
   margin-top: 18px;
   padding: 14px;
   border-radius: 12px;
@@ -460,7 +476,6 @@ mark {
 @media (max-width: 1040px) {
   .hero,
   .detail-layout { grid-template-columns: 1fr; }
-  .detail-summary-card { position: static; }
 }
 
 @media (max-width: 760px) {
