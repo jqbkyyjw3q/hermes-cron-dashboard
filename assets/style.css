@@ -106,11 +106,20 @@ button, input, select { font: inherit; }
   gap: 12px;
   margin-top: 22px;
 }
+.compact-links {
+  margin-top: 14px;
+}
+.sync-status-card h2 {
+  margin: 0 0 10px;
+  font-size: 26px;
+  letter-spacing: -0.025em;
+}
 .hero-link,
 .text-link,
 .back-link,
 .ghost-link,
-.primary-button {
+.primary-button,
+.plain-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -118,6 +127,7 @@ button, input, select { font: inherit; }
   padding: 0 14px;
   border-radius: 8px;
   transition: .18s ease;
+  font: inherit;
 }
 .hero-link,
 .primary-button {
@@ -127,7 +137,8 @@ button, input, select { font: inherit; }
 .hero-link.subtle,
 .back-link,
 .ghost-link,
-.text-link {
+.text-link,
+.plain-button {
   background: var(--surface);
   border: 1px solid var(--border);
   color: var(--text-2);
@@ -135,7 +146,8 @@ button, input, select { font: inherit; }
 .hero-link.subtle:hover,
 .back-link:hover,
 .ghost-link:hover,
-.text-link:hover {
+.text-link:hover,
+.plain-button:hover {
   background: var(--surface-soft);
 }
 .hero-tools { display: grid; gap: 16px; }
@@ -193,14 +205,19 @@ button, input, select { font: inherit; }
 }
 .search::placeholder { color: var(--text-3); }
 .search-meta,
-.page-summary {
+.page-summary,
+.toolbar-note {
   margin-top: 12px;
   color: var(--text-2);
   font-size: 14px;
   line-height: 1.65;
 }
+.page-summary.compact {
+  margin: 0;
+}
 .search-meta strong,
-.page-summary strong { color: var(--text); }
+.page-summary strong,
+.toolbar-note strong { color: var(--text); }
 .stats,
 .overview-stats { display: grid; gap: 10px; }
 .stat-card {

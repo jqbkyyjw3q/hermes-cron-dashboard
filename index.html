@@ -31,8 +31,8 @@
     <header class="hero">
       <section class="hero-copy">
         <p class="eyebrow">Dashboard Home</p>
-        <h1>先看今天重点，再进入对应页面</h1>
-        <p class="sub">首页只保留总览：今日摘要、重点内容、分类入口与归档预览。搜索、历史、详情都拆出去，避免所有内容挤在一页。</p>
+        <h1>先看重点，再进入对应页面</h1>
+        <p class="sub">首页只保留最核心入口：今日摘要、分类概览、归档预览，以及同步状态。搜索、历史、详情拆开后，阅读会更轻一些。</p>
         <div class="hero-links">
           <a class="hero-link" href="today.html">查看今日内容</a>
           <a class="hero-link subtle" href="search.html">进入全文搜索</a>
@@ -52,8 +52,14 @@
             <a class="list-link" href="archive.html"><strong>历史归档页</strong><span>按日期回看归档内容</span></a>
           </div>
         </section>
-        <section class="stats-card">
-          <p class="micro-kicker">Snapshot</p>
+        <section class="stats-card sync-status-card">
+          <p class="micro-kicker">Sync</p>
+          <h2>数据同步</h2>
+          <p class="page-summary compact">已加入每日 15:00 自动同步到 GitHub 并部署。需要时可以直接刷新页面，或去仓库查看最新提交。</p>
+          <div class="hero-links compact-links">
+            <a class="hero-link" href="https://github.com/jqbkyyjw3q/hermes-cron-dashboard" target="_blank" rel="noreferrer">查看仓库</a>
+            <button class="ghost-link plain-button" type="button" onclick="window.location.reload()">刷新页面</button>
+          </div>
           <section class="overview-stats" id="homeStats"></section>
         </section>
       </aside>
