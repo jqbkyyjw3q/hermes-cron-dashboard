@@ -48,9 +48,21 @@ def sanitize_text(text: str) -> str:
     return text.strip()
 
 
+def collapse_text(text: str) -> str:
+    return re.sub(r'\s+', ' ', sanitize_text(text)).strip()
+
+
 def excerpt(text: str, n=260):
-    text = re.sub(r'\s+', ' ', sanitize_text(text)).strip()
+    text = collapse_text(text)
     return text[:n] + ('…' if len(text) > n else '')
+
+
+def first_meaningful_line(text: str) -> str:
+    for line in sanitize_text(text).splitlines():
+        line = line.strip().lstrip('#').strip()
+        if len(line) >= 8:
+            return line
+    return excerpt(text, 120)
 
 
 def load_latest_output(job_id: str):
@@ -88,77 +100,118 @@ def body_from_response(response_json):
     return ''
 
 
-def latest_digest_map():
-    result = {}
+def read_all_digests():
+    rows = []
     if not DIGEST_DB.exists():
-        return result
+        return rows
     conn = sqlite3.connect(str(DIGEST_DB))
     cur = conn.cursor()
-    rows = cur.execute(
+    for job_name, subject, digest_date, created_at, content, md_path in cur.execute(
         """
-        SELECT d.job_name, d.subject, d.digest_date, d.created_at, d.content, d.md_path
-        FROM digests d
-        INNER JOIN (
-            SELECT job_name, MAX(created_at) AS max_created_at
-            FROM digests
-            GROUP BY job_name
-        ) latest
-        ON d.job_name = latest.job_name AND d.created_at = latest.max_created_at
+        SELECT job_name, subject, digest_date, created_at, content, md_path
+        FROM digests
+        ORDER BY digest_date DESC, created_at DESC
         """
-    ).fetchall()
-    conn.close()
-    for job_name, subject, digest_date, created_at, content, md_path in rows:
-        result[normalize_name(job_name)] = {
-            'subject': subject,
+    ).fetchall():
+        rows.append({
+            'job_name': job_name,
+            'job_key': normalize_name(job_name),
+            'title': subject or job_name,
+            'category': category_for(job_name),
             'digest_date': digest_date,
             'created_at': created_at,
             'content': content or '',
             'md_path': md_path,
-        }
-    return result
+            'summary': excerpt(content or ''),
+            'headline': first_meaningful_line(content or subject or job_name),
+        })
+    conn.close()
+    return rows
 
 
 jobs = read_jobs()
-digests = latest_digest_map()
-items = []
+job_map = {normalize_name(job.get('name')): job for job in jobs}
+all_digests = read_all_digests()
+latest_by_job = {}
+for item in all_digests:
+    latest_by_job.setdefault(item['job_key'], item)
+
+current_items = []
 cat_counter = {}
-for job in jobs:
-    cat = category_for(job.get('name', ''))
+for job_key, digest in latest_by_job.items():
+    job = job_map.get(job_key, {})
+    cat = digest['category']
     cat_counter[cat] = cat_counter.get(cat, 0) + 1
-    out = load_latest_output(job['id'])
+    out = load_latest_output(job.get('id', '')) if job.get('id') else {'latest_file': None, 'content': '', 'response_json': None}
     response = out['response_json'] or {}
-    digest = digests.get(normalize_name(job.get('name'))) or {}
-    final_content = digest.get('content') or body_from_response(response) or out['content']
-    title = digest.get('subject') or job.get('name')
-    items.append({
-        'id': job['id'],
-        'job_name': job.get('name'),
-        'title': title,
+    final_content = digest['content'] or body_from_response(response) or out['content']
+    current_items.append({
+        'id': job.get('id') or f"history::{job_key}",
+        'job_name': job.get('name') or digest['job_name'],
+        'title': digest['title'],
+        'headline': first_meaningful_line(final_content),
         'category': cat,
-        'schedule': schedule_text(job),
-        'deliver': job.get('deliver'),
-        'enabled': job.get('enabled'),
-        'state': job.get('state'),
-        'last_status': job.get('last_status') or 'never-run',
-        'next_run_at': job.get('next_run_at'),
-        'last_run_at': job.get('last_run_at'),
-        'digest_date': digest.get('digest_date'),
-        'digest_created_at': digest.get('created_at'),
+        'schedule': schedule_text(job) if job else '',
+        'deliver': job.get('deliver') if job else '',
+        'enabled': job.get('enabled') if job else None,
+        'state': job.get('state') if job else '',
+        'last_status': job.get('last_status') if job else '',
+        'next_run_at': job.get('next_run_at') if job else '',
+        'last_run_at': job.get('last_run_at') if job else digest['created_at'],
+        'digest_date': digest['digest_date'],
+        'digest_created_at': digest['created_at'],
         'latest_output_file': out['latest_file'],
-        'latest_digest_file': digest.get('md_path'),
+        'latest_digest_file': digest['md_path'],
         'summary': excerpt(final_content),
         'final_content': sanitize_text(final_content),
         'response_json': response,
     })
 
-items.sort(key=lambda x: (x['category'], x['job_name'] or ''))
+current_items.sort(key=lambda x: (x['category'], x['job_name'] or ''))
+
+today = max((item['digest_date'] for item in current_items if item.get('digest_date')), default='')
+today_items = [item for item in current_items if item.get('digest_date') == today] or current_items
+
+today_headlines = []
+for item in today_items:
+    today_headlines.append({
+        'title': item['title'],
+        'category': item['category'],
+        'job_name': item['job_name'],
+        'headline': item['headline'],
+        'summary': item['summary'],
+        'digest_date': item['digest_date'],
+    })
+
+history_items = []
+for idx, digest in enumerate(all_digests, 1):
+    job = job_map.get(digest['job_key'], {})
+    history_items.append({
+        'id': f"hist-{idx}",
+        'job_name': job.get('name') or digest['job_name'],
+        'title': digest['title'],
+        'headline': digest['headline'],
+        'category': digest['category'],
+        'schedule': schedule_text(job) if job else '',
+        'last_run_at': job.get('last_run_at') if job else digest['created_at'],
+        'digest_date': digest['digest_date'],
+        'digest_created_at': digest['created_at'],
+        'summary': digest['summary'],
+        'final_content': sanitize_text(digest['content']),
+        'latest_digest_file': digest['md_path'],
+    })
+
 payload = {
     'generated_at': datetime.now().isoformat(),
     'stats': {
-        'total_jobs': len(items),
+        'total_current_cards': len(current_items),
+        'total_history_cards': len(history_items),
         'categories': cat_counter,
+        'today_date': today,
     },
-    'jobs': items,
+    'today_headlines': today_headlines,
+    'current': current_items,
+    'history': history_items,
 }
 OUT_PATH.write_text('window.DASHBOARD_DATA = ' + json.dumps(payload, ensure_ascii=False, indent=2) + ';\n', encoding='utf-8')
 print(f'Wrote {OUT_PATH}')

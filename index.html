@@ -12,22 +12,44 @@
       <div>
         <p class="eyebrow">Hermes Daily Intelligence Board</p>
         <h1>每日执行结果信息看板</h1>
-        <p class="sub">这里展示的是各定时任务执行后的最终信息，不是脚本本身。按类别归档，直接看内容、看摘要、看全文。</p>
+        <p class="sub">首页先看“今日头条汇总”，下面再按类别看最新内容，并把历史归档一起带上去，方便纵向回看。</p>
       </div>
       <div class="hero-meta">
-        <div class="meta-card"><span>信息卡片数</span><strong id="totalJobs">-</strong></div>
+        <div class="meta-card"><span>今日内容卡片</span><strong id="totalJobs">-</strong></div>
         <div class="meta-card"><span>最近生成</span><strong id="generatedAt">-</strong></div>
       </div>
     </header>
 
     <section class="stats" id="stats"></section>
 
+    <section class="headline-section group">
+      <div class="group-head">
+        <h2>今日头条汇总</h2>
+        <span>把今天各定时任务的核心结果先汇在首页</span>
+      </div>
+      <div id="todayHeadlines" class="headline-grid"></div>
+    </section>
+
     <section class="toolbar">
       <div id="categoryFilters" class="filters"></div>
       <input id="searchInput" class="search" type="search" placeholder="搜索标题 / 来源任务 / 摘要 / 内容" />
     </section>
 
-    <section id="groupedJobs" class="groups"></section>
+    <section class="group">
+      <div class="group-head">
+        <h2>最新分类内容</h2>
+        <span>每个任务当前最新一版结果</span>
+      </div>
+      <section id="groupedJobs" class="groups"></section>
+    </section>
+
+    <section class="group history-wrapper">
+      <div class="group-head">
+        <h2>历史归档</h2>
+        <span>原来的历史数据也已一起带上来</span>
+      </div>
+      <section id="historySection" class="groups"></section>
+    </section>
   </div>
 
   <dialog id="detailDialog" class="detail-dialog">
