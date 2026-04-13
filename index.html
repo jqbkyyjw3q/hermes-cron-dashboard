@@ -6,15 +6,14 @@
   <title>Hermes 每日信息看板</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
   <div class="shell">
     <header class="topbar">
       <div class="brand-mark">
-        <span class="brand-dot"></span>
-        <div>
+        <div class="brand-block">
           <p class="micro-kicker">Hermes</p>
           <strong>Daily Intelligence Board</strong>
         </div>
@@ -26,34 +25,32 @@
     </header>
 
     <header class="hero">
-      <section class="hero-main panel panel-hero">
+      <section class="hero-copy">
         <p class="eyebrow">Operational Briefing</p>
         <h1>每日执行结果信息看板</h1>
-        <p class="sub">首页先看今日头条，再按类别浏览最新结果与历史归档。搜索、筛选、详情页统一为一套更克制、更利于长文阅读的界面。</p>
-        <div class="hero-actions">
+        <p class="sub">保留足够的信息密度，但把层级、留白和阅读体验重新整理得更素雅。先看今日重点，再按分类与搜索进入具体详情页。</p>
+        <div class="hero-links">
           <a class="hero-link" href="#todayHeadlines">查看今日头条</a>
-          <a class="hero-link ghost" href="#historySection">跳到历史归档</a>
+          <a class="hero-link subtle" href="#groupedJobs">查看分类内容</a>
         </div>
       </section>
 
-      <aside class="hero-side">
-        <section class="panel command-panel">
-          <div class="command-head">
+      <aside class="hero-tools">
+        <section class="search-panel">
+          <div class="search-head">
             <div>
               <p class="micro-kicker">Search</p>
               <h2>全文搜索</h2>
             </div>
-            <span class="command-key">⌘K</span>
           </div>
           <label class="sr-only" for="searchInput">全文搜索</label>
-          <div class="command-shell">
-            <span class="command-icon">/</span>
+          <div class="search-shell">
             <input id="searchInput" class="search" type="search" placeholder="搜索标题 / 来源任务 / 摘要 / 正文 / 历史归档" />
           </div>
           <div id="searchMeta" class="search-meta"></div>
         </section>
 
-        <section class="panel hero-stats-panel">
+        <section class="stats-card">
           <p class="micro-kicker">Snapshot</p>
           <section class="stats" id="stats"></section>
         </section>
@@ -61,36 +58,36 @@
     </header>
 
     <section id="detailPage" class="detail-page" hidden>
-      <div class="detail-nav-bar panel">
+      <div class="detail-nav-bar">
         <a href="#top" id="backToBoard" class="back-link">← 返回总览</a>
         <div id="detailPager" class="detail-pager"></div>
       </div>
       <article class="detail-layout">
-        <aside class="detail-summary-card panel">
+        <aside class="detail-summary-card">
           <p class="micro-kicker">Entry Detail</p>
           <h2 id="detailTitle">-</h2>
           <div id="detailMeta" class="detail-meta"></div>
           <div id="detailSearchHint" class="detail-search-hint" hidden></div>
         </aside>
-        <section class="detail-content-card panel">
+        <section class="detail-content-card">
           <div id="detailBody" class="markdown-body"></div>
         </section>
       </article>
     </section>
 
     <main id="boardPage" class="board-layout">
-      <section class="panel section-card headline-panel">
+      <section class="section-card headline-panel">
         <div class="section-head">
           <div>
             <p class="micro-kicker">Today</p>
             <h2>今日头条汇总</h2>
           </div>
-          <span>先看今天各定时任务的核心结果</span>
+          <span>先快速浏览今天最值得看的结果</span>
         </div>
         <div id="todayHeadlines" class="headline-grid"></div>
       </section>
 
-      <section class="panel section-card filters-panel">
+      <section class="section-card filters-panel">
         <div class="section-head compact-head">
           <div>
             <p class="micro-kicker">Categories</p>
@@ -101,7 +98,7 @@
         <div id="categoryFilters" class="filters"></div>
       </section>
 
-      <section id="searchResultsSection" class="panel section-card search-results" hidden>
+      <section id="searchResultsSection" class="section-card search-results" hidden>
         <div class="section-head">
           <div>
             <p class="micro-kicker">Query Results</p>
@@ -112,7 +109,7 @@
         <section id="searchResults" class="groups"></section>
       </section>
 
-      <section class="panel section-card">
+      <section class="section-card">
         <div class="section-head">
           <div>
             <p class="micro-kicker">Current</p>
@@ -123,7 +120,7 @@
         <section id="groupedJobs" class="groups"></section>
       </section>
 
-      <section class="panel section-card history-wrapper">
+      <section class="section-card history-wrapper">
         <div class="section-head">
           <div>
             <p class="micro-kicker">Archive</p>
