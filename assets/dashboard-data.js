@@ -1,12 +1,12 @@
 window.DASHBOARD_DATA = {
-  "generated_at": "2026-04-13T19:14:11.994582",
+  "generated_at": "2026-04-13T19:17:05.336891",
   "stats": {
     "total_current_cards": 7,
-    "total_history_cards": 233,
+    "total_history_cards": 235,
     "categories": {
-      "AI / 技术": 1,
       "财经 / 国际": 3,
       "综合简报": 1,
+      "AI / 技术": 1,
       "监控 / 雷达": 1,
       "其他": 1
     },
@@ -42,15 +42,15 @@ window.DASHBOARD_DATA = {
       "category": "财经 / 国际",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "headline": "每日财经情报20条（2026-04-13）",
-      "summary": "# 每日财经情报20条（2026-04-13） ## A. 必看5条 ### 1. 特朗普下令封锁霍尔木兹海峡 油价飙升股市下跌 - **原文链接**：https://www.bloomberg.com/news/videos/2026-04-13/oil-surges-stocks-drop-on-us-plan-to-blockade-hormuz-video - **摘要**：美国总统特朗普在美伊周末和平谈判破裂后，下令封锁霍尔木兹海峡，禁止任何停靠伊朗港口或驶往那里的船只通过。油价因此大幅上涨，股市和债券价…",
+      "summary": "# 每日财经情报20条（2026-04-13） ## A. 必看5条 ### 1. 油价重回100美元上方 美国封锁霍尔木兹海峡引发市场震荡 - **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/oil-surges-us-futures-drop-on-hormuz-blockade-markets-wrap - **摘要**：油价重回100美元上方，美国总统特朗普下令封锁霍尔木兹海峡，此举针对与伊朗港口相关的船只。股市下跌，债券收益率小幅上升…",
       "digest_date": "2026-04-13"
     },
     {
       "title": "Trump 国际事务发言追踪（2026-04-13）",
       "category": "财经 / 国际",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
-      "headline": "过去24小时内筛出 6 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
-      "summary": "一、今日概览 过去24小时内筛出 6 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。 二、逐条内容 - 发布时间：2026-04-13 12:43（北京时间） 原文要点：The United States to Blockade Ships Entering or Exiting Iranian Ports on April 13 at 10:00 A.M. ET. Thank you for your a 中文翻译：美国将于4月1…",
+      "headline": "Trump 国际事务发言追踪（2026-04-13）",
+      "summary": "# Trump 国际事务发言追踪（2026-04-13） ## 一、今日概览 过去24小时内筛出 10 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。 ## 二、逐条内容 ### 1. 2026-04-13 16:10（北京时间） - **原文要点**：Trump brilliantly calls Iran’s bluff — with his own Strait of Hormuz blockade: https:// nyp…",
       "digest_date": "2026-04-13"
     }
   ],
@@ -140,9 +140,9 @@ window.DASHBOARD_DATA = {
       "next_run_at": "2026-04-14T08:00:00+08:00",
       "last_run_at": "2026-04-13T08:01:09.606769+08:00",
       "digest_date": "2026-04-13",
-      "digest_created_at": "2026-04-13T09:47:46.545647",
+      "digest_created_at": "2026-04-13T19:15:31.129443",
       "latest_output_file": "/root/.hermes/cron/output/505756b44eba/2026-04-13_08-01-09.md",
-      "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/094746-morning-latest-news-briefing-email-qq.md",
+      "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/191531-morning-latest-news-briefing-email-qq.md",
       "summary": "# 【早报】国内外要闻简报（2026-04-13） ## 今日7条 ### 1. 我国对美启动两项贸易壁垒调查 - **摘要**：商务部3月27日依据《对外贸易法》和《对外贸易壁垒调查规则》，针对美国两起301调查，对美国破坏全球产供链相关做法及阻碍绿色产品贸易相关做法发起两项贸易壁垒调查。中方表示将依法推进调查，并视情况采取措施维护正当权益。 - **为什么重要**：这是今日国内政策面最直接的外贸动作，反映中方在贸易与产业链议题上的防御姿态正在转强。 - **来源**：新华社 - **原文链接**：http://…",
       "final_content": "# 【早报】国内外要闻简报（2026-04-13）\n\n## 今日7条\n\n### 1. 我国对美启动两项贸易壁垒调查\n\n- **摘要**：商务部3月27日依据《对外贸易法》和《对外贸易壁垒调查规则》，针对美国两起301调查，对美国破坏全球产供链相关做法及阻碍绿色产品贸易相关做法发起两项贸易壁垒调查。中方表示将依法推进调查，并视情况采取措施维护正当权益。\n- **为什么重要**：这是今日国内政策面最直接的外贸动作，反映中方在贸易与产业链议题上的防御姿态正在转强。\n- **来源**：新华社\n- **原文链接**：http://www.xinhuanet.com/fortune/20260327/2abd7872df7942d18e7d7bfbfc2bf58a/c.html\n\n### 2. 前2个月全国规模以上工业企业利润同比增长15.2%\n\n- **摘要**：新华社3月27日消息称，2026年前两个月全国规模以上工业企业利润同比增长15.2%。这显示工业部门盈利修复延续，景气度在年初继续改善。\n- **为什么重要**：利润修复说明实体经济韧性仍在，对后续市场风险偏好和稳增长预期都有支撑。\n- **来源**：新华社\n- **原文链接**：https://www.news.cn/20260327/acae5a46f8264d0c841e8c4156208861/c.html\n\n### 3. 2026年中央部门预算集中向社会公开\n\n- **摘要**：财政部要求各部门原则上公开一般公共预算、政府性基金预算和国有资本经营预算项目绩效目标表，公开比例不低于项目数量的60%。预算公开继续在各部门网站和财政部门户平台同步集中展示。\n- **为什么重要**：预算公开力度提升，有助于增强财政透明度，也释放政策执行更注重绩效与约束的信号。\n- **来源**：人民日报\n- **原文链接**：http://finance.people.com.cn/n1/2026/0327/c1004-40689777.html\n\n### 4. 研究称两年内中国或将超越美国成最大公共科学资助国\n\n- **摘要**：根据《自然-指数》最新分析，按购买力平价调整后，中国政府研发支出十年增长约90%，与美国差距明显收窄。研究预计未来两到三年中国可能超过美国，成为全球最大的公共科学资助国。\n- **为什么重要**：这意味着中国在长期科技竞争中的资源投入正持续抬升，值得关注对科研与产业升级的传导。\n- **来源**：财新\n- **原文链接**：https://science.caixin.com/2026-03-27/102427921.html\n\n### 5. 油价升至2022年以来最高水平，伊朗谈判未能缓解供应担忧\n\n- **摘要**：CNBC称，随着围绕霍尔木兹海峡的风险持续发酵，国际油价在3月27日升至2022年以来最高水平。即便美方称已有部分油轮通行，市场仍担忧中东供应链进一步受扰。\n- **为什么重要**：能源价格再度成为全球资产定价的核心变量，后续将直接影响通胀与风险偏好。\n- **来源**：CNBC\n- **原文链接**：https://www.cnbc.com/2026/03/27/oil-price-wti-brent-crude-trump-strait-hormuz-tensions-iran-ships.html\n\n### 6. 科技股遭遇近一年来最差单周表现\n\n- **摘要**：CNBC报道，受中东战事推升油价、Meta法律挫折及Micron大跌等因素影响，科技股录得近一年来最差单周表现。高估值成长板块对能源冲击和风险偏好收缩尤为敏感。\n- **为什么重要**：说明此前领涨的高估值科技板块在宏观扰动面前仍较脆弱，短期波动可能继续放大。\n- **来源**：CNBC\n- **原文链接**：https://www.cnbc.com/2026/03/27/tech-stocks-iran-war-meta-verdict.html\n\n### 7. 美方称预计数周内结束对伊朗军事行动并讨论护航\n\n- **摘要**：BBC援引美国国务卿鲁比奥表态称，美方预计将在未来几周内结束伊朗战事，并称盟友对协助护航霍尔木兹海峡持开放态度。该表态显示军事与航运安全安排正在同步推进，但地区局势仍高度紧张。\n- **为什么重要**：若护航机制落地，或将影响全球航运与油运预期，但地区紧张仍未实质解除。\n- **来源**：BBC\n- **原文链接**：https://www.bbc.com/news/articles/c1l9vz064nqo?at_medium=RSS&at_campaign=rss\n\n## 今日观察\n\n国内主线仍是稳增长、提透明度与增强科技投入，政策与基本面信号整体偏稳。\n国际主线则仍围绕中东局势、油价冲击和科技股估值回撤展开，全球市场短期将继续受能源与地缘风险牵引。\n对资产定价而言，接下来最值得盯的是油价、航运安全与风险偏好是否进一步恶化。",
       "response_json": {
@@ -167,11 +167,11 @@ window.DASHBOARD_DATA = {
       "next_run_at": "2026-04-14T08:15:00+08:00",
       "last_run_at": "2026-04-13T08:15:26.336102+08:00",
       "digest_date": "2026-04-13",
-      "digest_created_at": "2026-04-13T13:55:53.059326",
+      "digest_created_at": "2026-04-13T19:16:06.664247",
       "latest_output_file": "/root/.hermes/cron/output/a8811d893b31/2026-04-13_08-15-26.md",
-      "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/135553-bloombergft-财经简报-0815-邮件.md",
-      "summary": "# 每日财经情报20条（2026-04-13） ## A. 必看5条 ### 1. 特朗普下令封锁霍尔木兹海峡 油价飙升股市下跌 - **原文链接**：https://www.bloomberg.com/news/videos/2026-04-13/oil-surges-stocks-drop-on-us-plan-to-blockade-hormuz-video - **摘要**：美国总统特朗普在美伊周末和平谈判破裂后，下令封锁霍尔木兹海峡，禁止任何停靠伊朗港口或驶往那里的船只通过。油价因此大幅上涨，股市和债券价…",
-      "final_content": "# 每日财经情报20条（2026-04-13）\n\n## A. 必看5条\n\n### 1. 特朗普下令封锁霍尔木兹海峡 油价飙升股市下跌\n- **原文链接**：https://www.bloomberg.com/news/videos/2026-04-13/oil-surges-stocks-drop-on-us-plan-to-blockade-hormuz-video\n- **摘要**：美国总统特朗普在美伊周末和平谈判破裂后，下令封锁霍尔木兹海峡，禁止任何停靠伊朗港口或驶往那里的船只通过。油价因此大幅上涨，股市和债券价格下跌，全球能源市场遭受前所未有的冲击。\n- **影响判断**：直接推高全球油价，可能引发供应链进一步中断，值得密切跟踪能源和大宗商品走势。\n- **相关性标签**：全球市场/宏观政策/产业链\n- **来源标签**：Bloomberg\n\n### 2. 沙特对华原油销售下月将减半\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/saudi-oil-sales-to-china-to-halve-as-hormuz-crisis-lifts-prices\n- **摘要**：受霍尔木兹危机影响，沙特阿拉伯对最大进口国中国的原油销售下月预计减半。战争扰乱石油流动并推高价格，贸易商已确认相关动向。\n- **影响判断**：中国作为主要石油进口国将面临供应紧张和成本上升，对国内能源价格和产业链构成压力。\n- **相关性标签**：涉华/全球市场/产业链\n- **来源标签**：Bloomberg\n\n### 3. 日本Toto因伊朗战争导致材料短缺暂停浴室订单\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/japan-s-toto-halts-bathroom-orders-on-material-shortage-amid-war\n- **摘要**：日本卫浴制造商Toto因伊朗战争持续挤压全球石油供应链，出现材料短缺，已暂停预制浴室的新订单。\n- **影响判断**：显示战争对全球制造业供应链的直接冲击，可能波及更多日企和相关产业。\n- **相关性标签**：全球市场/产业链/公司\n- **来源标签**：Bloomberg\n\n### 4. 匈牙利反对党赢得压倒性胜利 欧尔班承认败选\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/forint-jumps-to-three-year-high-as-hungary-s-orban-is-voted-out\n- **摘要**：匈牙利总理欧尔班在选举中败给亲欧盟反对党领袖彼得·马贾尔，后者领导的政党获得压倒性多数。福林特汇率飙升至多年高位，欧盟资金解冻前景改善。\n- **影响判断**：标志匈牙利政治转向，可能重塑其与欧盟、俄罗斯及美国的关系，影响区域地缘政治。\n- **相关性标签**：全球市场/宏观政策\n- **来源标签**：Bloomberg\n\n### 5. 西班牙总理访华敦促中国助力结束伊朗和乌克兰战争\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/spanish-pm-urges-china-to-do-more-to-end-wars-in-iran-ukraine\n- **摘要**：西班牙首相桑切斯开启访华行程，呼吁北京利用国际影响力推动结束伊朗和乌克兰的战争。\n- **影响判断**：凸显中国在全球冲突解决中的角色被国际社会关注，对中美欧关系及外交动态有参考意义。\n- **相关性标签**：涉华/宏观政策\n- **来源标签**：Bloomberg\n\n## B. 其他重点15条（总计20条）\n\n### 6. 油价可能升至150美元 若美国推进封锁\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/oil-may-rise-to-150-if-us-goes-ahead-with-blockade-onyx-says\n- **摘要**：资深石油市场人士表示，若美国推进霍尔木兹海峡海军封锁计划，油价应远高于当前水平，可能达到150美元。\n- **影响判断**：提供对油价潜在极端情景的判断，投资者需评估高油价下的市场风险。\n- **相关性标签**：全球市场/宏观政策\n- **来源标签**：Bloomberg\n\n### 7. 澳大利亚考虑建立本土柴油储备应对战争中断\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/western-australia-mulls-own-diesel-reserve-after-war-disruptions\n- **摘要**：西澳大利亚因伊朗战争导致燃料短缺，考虑由州政府出资建立战略柴油储备，以保障农业和矿业等关键行业。\n- **影响判断**：反映资源国对全球能源供应链脆弱性的担忧，可能引发更多国家类似储备行动。\n- **相关性标签**：全球市场/产业链\n- **来源标签**：Bloomberg\n\n### 8. 中国Victory Giant寻求香港上市融资22亿美元\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/china-s-victory-giant-seeks-up-to-2-2-billion-in-hong-kong-listing\n- **摘要**：中国惠州胜利巨科技启动香港上市认购，预计融资高达17.5亿港元（约22亿美元），将成为今年香港最大IPO之一。\n- **影响判断**：显示中资企业赴港融资活跃度，对香港资本市场和科技板块有提振作用。\n- **相关性标签**：涉华/公司\n- **来源标签**：Bloomberg\n\n### 9. 瑞士银行UBP重启黄金买入 预测年底达6000美元\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/swiss-bank-ubp-buying-gold-again-forecasting-6-000-year-end\n- **摘要**：瑞银私人银行在伊朗战争引发金价回落时减持后重新买入黄金，认为长期前景依然良好，预测年底金价达6000美元。\n- **影响判断**：黄金作为避险资产的配置信号增强，可关注地缘风险下的贵金属走势。\n- **相关性标签**：全球市场\n- **来源标签**：Bloomberg\n\n### 10. IMF称全球物价需时间回落 即使停火也如此\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/imf-chief-says-global-prices-will-take-time-to-recede-after-war\n- **摘要**：国际货币基金组织总裁格奥尔基耶娃表示，即使伊朗战争实现停火，全球物价也需较长时间才能回落至战前水平。\n- **影响判断**：提醒通胀压力可能长期化，对各国货币政策制定有重要参考。\n- **相关性标签**：宏观政策/全球市场\n- **来源标签**：Bloomberg\n\n### 11. 日本首相高市早苗敦促推进修宪 霍尔木兹风险下\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/takaichi-urges-constitutional-reform-talks-as-hormuz-risk-looms\n- **摘要**：日本首相高市早苗敦促执政党加快修宪讨论，此举若成功她将成为首位实现修宪的领导人，但可能疏远选民。\n- **影响判断**：在地缘风险上升背景下，日本国内政治议程加速，值得关注对防务和外交的影响。\n- **相关性标签**：宏观政策/涉华\n- **来源标签**：Bloomberg\n\n### 12. 韩国央行行长提名人称利率接近中性水平\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/bank-of-korea-governor-nominee-shin-says-rate-near-neutral-level\n- **摘要**：韩国央行行长提名人申铉松表示，根据多种估算，政策利率已接近中性水平，无需急剧调整货币政策。\n- **影响判断**：暗示韩国货币政策短期维持稳定，对亚洲新兴市场利率预期有参考。\n- **相关性标签**：宏观政策/全球市场\n- **来源标签**：Bloomberg\n\n### 13. 中国向台湾提供优惠政策 此前与反对党会谈\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/china-unveils-taiwan-goodwill-steps-after-rare-opposition-talks\n- **摘要**：中国在与台湾反对党领袖会谈后，宣布一系列针对台湾的政策优惠措施。\n- **影响判断**：两岸关系出现新动向，可能影响区域稳定和相关产业预期。\n- **相关性标签**：涉华\n- **来源标签**：Bloomberg\n\n### 14. 壳牌CEO谈石油、可再生能源与能源未来\n- **原文链接**：https://www.bloomberg.com/news/videos/2026-04-13/shell-ceo-wael-sawan-on-oil-renewables-and-the-future-of-energy-mnwq4v8f\n- **摘要**：壳牌CEO瓦埃尔·萨万讨论公司在能源转型中的争议策略、应对全球能源系统波动，以及从“全知”转向“全学”的企业文化。\n- **影响判断**：大型能源巨头对油价波动和转型路径的看法，对行业长期战略有启示。\n- **相关性标签**：全球市场/产业链\n- **来源标签**：Bloomberg\n\n### 15. 台湾领导人计划出访非洲最后邦交国\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/taiwan-leader-to-visit-eswatini-in-first-foreign-trip-since-2024\n- **摘要**：台湾总统赖清德计划访问其在非洲的最后一个外交盟友，这是他自2024年12月以来首次出访。\n- **影响判断**：反映台湾外交布局，对两岸及国际关系动态有观察价值。\n- **相关性标签**：涉华\n- **来源标签**：Bloomberg\n\n### 16. 日本追加40亿美元补贴加速Rapidus AI芯片项目\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-11/japan-bets-16-billion-to-propel-startup-rapidus-into-ai-chips\n- **摘要**：日本批准追加6315亿日元（约40亿美元）补贴，加速初创公司Rapidus进入高风险AI芯片制造领域。\n- **影响判断**：日本在AI芯片全球竞争中加大投入，尽管被视为长线赌注，仍值得关注供应链变化。\n- **相关性标签**：AI科技/产业链\n- **来源标签**：Bloomberg\n\n### 17. 菲律宾指中国船只使用氰化物威胁军事前哨\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/philippines-says-china-boats-cyanide-threatens-military-outpost\n- **摘要**：菲律宾确认去年中国船只在南海争议水域使用氰化物，威胁其军事前哨及士兵安全。\n- **影响判断**：南海紧张局势新指控，可能加剧地区安全担忧。\n- **相关性标签**：涉华\n- **来源标签**：Bloomberg\n\n### 18. 东南亚国家敦促美伊继续和平谈判\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/southeast-asian-nations-urge-us-iran-to-continue-peace-talks\n- **摘要**：东南亚国家呼吁美国和伊朗在周末谈判破裂后继续磋商以结束冲突。\n- **影响判断**：区域国家对中东冲突外溢风险的关切，影响全球贸易通道稳定。\n- **相关性标签**：宏观政策/全球市场\n- **来源标签**：Bloomberg\n\n### 19. 韩国与波兰同意加强国防合作\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/south-korea-poland-agree-to-keep-boosting-defense-ties\n- **摘要**：韩国总统李在明与波兰总理图斯克会谈，同意扩大国防合作，背景包括乌克兰战争持续及美国国防重点转向中东。\n- **影响判断**：显示欧洲与亚洲国防伙伴关系深化，对军工产业有潜在利好。\n- **相关性标签**：全球市场/产业链\n- **来源标签**：Bloomberg\n\n### 20. 富兰克林邓普顿任命山本武为日本负责人\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/franklin-templeton-taps-blue-owl-s-yamamoto-as-japan-lead\n- **摘要**：富兰克林邓普顿信贷管理部门任命山本武为日本资本形成负责人。\n- **影响判断**：国际资管机构加强日本布局，反映对当地市场的重视。\n- **相关性标签**：全球市场/公司\n- **来源标签**：Bloomberg\n\n## C. 1句话结论\n结论：关注地缘冲突对油价和供应链的持续冲击，短期规避高风险资产，观望中国相关外交与能源动向。",
+      "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/191606-bloombergft-财经简报-0815-邮件.md",
+      "summary": "# 每日财经情报20条（2026-04-13） ## A. 必看5条 ### 1. 油价重回100美元上方 美国封锁霍尔木兹海峡引发市场震荡 - **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/oil-surges-us-futures-drop-on-hormuz-blockade-markets-wrap - **摘要**：油价重回100美元上方，美国总统特朗普下令封锁霍尔木兹海峡，此举针对与伊朗港口相关的船只。股市下跌，债券收益率小幅上升…",
+      "final_content": "# 每日财经情报20条（2026-04-13）\n\n## A. 必看5条\n\n### 1. 油价重回100美元上方 美国封锁霍尔木兹海峡引发市场震荡\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/oil-surges-us-futures-drop-on-hormuz-blockade-markets-wrap\n- **摘要**：油价重回100美元上方，美国总统特朗普下令封锁霍尔木兹海峡，此举针对与伊朗港口相关的船只。股市下跌，债券收益率小幅上升，全球能源供应风险急剧上升。\n- **影响判断**：能源价格冲击将直接影响全球通胀和经济增长，短期市场波动剧烈。\n- **相关性标签**：全球市场/宏观政策/产业链\n- **来源标签**：Bloomberg\n\n### 2. 铝价飙升至四年新高 霍尔木兹封锁威胁海湾运输\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/copper-falls-aluminum-spreads-spike-as-us-plans-hormuz-blockade\n- **摘要**：受美国封锁伊朗港口计划影响，伦敦铝价跳升至四年高点，海湾地区运输中断风险上升。铜价则出现下跌，金属市场分化明显。\n- **影响判断**：大宗商品供应链受地缘冲突直接冲击，工业成本面临上升压力。\n- **相关性标签**：全球市场/产业链\n- **来源标签**：Bloomberg\n\n### 3. 台湾计划军演应对中国能源封锁风险\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/taiwan-plans-drills-to-break-potential-chinese-energy-blockade\n- **摘要**：台湾将进行新演习，确保关键物资供应，以应对潜在中国能源封锁。伊朗关闭全球能源咽喉的案例凸显了这一风险。\n- **影响判断**：地缘紧张局势下，台湾供应链安全成为市场关注焦点。\n- **相关性标签**：涉华\n- **来源标签**：Bloomberg\n\n### 4. 中国30年期国债上涨 市场押注发行期限缩短\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/china-s-30-year-bonds-gain-amid-bets-on-issuance-duration-cut\n- **摘要**：中国超长期政府债券走高，交易员押注北京可能缩短特别债务发行期限以缓解供应压力。\n- **影响判断**：中国债券市场动态反映财政政策微调预期，对国内流动性影响显著。\n- **相关性标签**：涉华/宏观政策\n- **来源标签**：Bloomberg\n\n### 5. 英特尔股价四月暴涨1000亿美元 成市场最热股票\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/intel-s-100-billion-april-rally-makes-it-market-s-hottest-stock\n- **摘要**：英特尔股价在四月连续八天上涨，市值增加超过1000亿美元，成为标普500中最热门个股。马斯克与英特尔合作推进芯片制造计划。\n- **影响判断**：AI芯片领域动态直接影响科技股估值和产业链布局。\n- **相关性标签**：AI科技/公司\n- **来源标签**：Bloomberg\n\n## B. 其他重点15条（总计20条）\n\n### 6. 印度通胀回升 中东战争推高能源成本\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/india-inflation-picks-up-as-mideast-crisis-lifts-energy-costs\n- **摘要**：印度3月通胀小幅上升，中东战争导致原油价格上涨并挤压关键行业天然气供应。\n- **影响判断**：新兴市场通胀压力增加，可能影响货币政策路径。\n- **相关性标签**：全球市场/宏观政策\n- **来源标签**：Bloomberg\n\n### 7. 匈牙利欧尔班败选 福林特和股市大幅上涨\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/forint-jumps-to-three-year-high-as-hungary-s-orban-is-voted-out\n- **摘要**：匈牙利反对派取得压倒性胜利后，福林特升至四年高点，本地股市创纪录。市场预期欧盟资金解冻和经济复苏。\n- **影响判断**：欧盟内部政治变化或为区域经济注入新动力。\n- **相关性标签**：全球市场/宏观政策\n- **来源标签**：Bloomberg\n\n### 8. 日本央行行长植田讲话冷却四月加息预期\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/ueda-s-speech-shows-rising-caution-without-clear-hints-on-rate\n- **摘要**：日本央行行长植田保持政策选项开放，对美伊冲突影响持谨慎态度，冷却市场对本月加息的押注。\n- **影响判断**：央行信号影响日元汇率和全球利率预期。\n- **相关性标签**：宏观政策\n- **来源标签**：Bloomberg\n\n### 9. 中国Victory Giant寻求香港上市融资22亿美元\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/china-s-victory-giant-seeks-up-to-2-2-billion-in-hong-kong-listing\n- **摘要**：中国惠州胜利巨科技启动香港上市程序，拟融资高达22亿美元，可能成为今年香港最大IPO之一。\n- **影响判断**：中资企业海外上市动态反映融资环境变化。\n- **相关性标签**：涉华/公司\n- **来源标签**：Bloomberg\n\n### 10. 马来西亚芯片设计公司Skyechip签署IPO承销协议\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/chip-designer-skyechip-inks-underwriting-deal-for-malaysia-ipo\n- **摘要**：马来西亚芯片设计公司Skyechip与本地银行签署承销协议，IPO所得款项将用于人工智能产品研发。\n- **影响判断**：东南亚AI产业链布局加速。\n- **相关性标签**：AI科技/产业链\n- **来源标签**：Bloomberg\n\n### 11. 伊朗战争加剧对全球经济安全网的担忧\n- **原文链接**：https://www.bloomberg.com/news/newsletters/2026-04-13/global-economy-and-oil-shock-and-fiscal-buffers\n- **摘要**：危机专家称当前是20年来最糟糕的处境之一，伊朗战争冲击全球经济缓冲机制。\n- **影响判断**：地缘风险对全球财政和经济韧性的考验加剧。\n- **相关性标签**：全球市场/宏观政策\n- **来源标签**：Bloomberg\n\n### 12. 台湾领导人计划访问非洲最后外交盟友\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/taiwan-leader-to-visit-eswatini-in-first-foreign-trip-since-2024\n- **摘要**：台湾总统赖清德计划访问斯威士兰，这是其自2024年12月以来首次出访，斯威士兰是台湾在非洲的最后一个外交盟友。\n- **影响判断**：台湾外交动态值得关注地缘政治格局。\n- **相关性标签**：涉华\n- **来源标签**：Bloomberg\n\n### 13. 中国向台湾提供优惠政策 此前与反对党会谈\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/china-unveils-taiwan-goodwill-steps-after-rare-opposition-talks\n- **摘要**：中国在与台湾反对党领袖会晤后宣布一系列对台政策优惠措施。\n- **影响判断**：两岸关系出现新信号，可能影响区域稳定预期。\n- **相关性标签**：涉华\n- **来源标签**：Bloomberg\n\n### 14. 欧洲央行官员称能源价格仍接近基准情景\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/ecb-s-vujcic-says-energy-prices-are-still-very-close-to-baseline\n- **摘要**：欧洲央行管委成员表示，尽管能源成本自停火后上升，但仍接近基准情景。\n- **影响判断**：欧元区货币政策判断受能源因素影响有限。\n- **相关性标签**：宏观政策\n- **来源标签**：Bloomberg\n\n### 15. 波兰最大银行加快匈牙利分行开设计划\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/top-polish-bank-pko-speeds-up-hungary-branch-plan-after-election\n- **摘要**：波兰最大贷款机构PKO Bank Polski在亲欧盟反对派胜选后加快评估在匈牙利开设分行。\n- **影响判断**：中东欧银行业务扩张反映政治环境变化。\n- **相关性标签**：全球市场/公司\n- **来源标签**：Bloomberg\n\n### 16. 安哥拉洪水中断Lobito铁路 影响中非矿产出口\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/angola-flooding-halts-traffic-on-lobito-rail-disrupting-exports\n- **摘要**：安哥拉西部洪水导致Lobito走廊铁路运输暂停，干扰中非关键矿产出口路线。\n- **影响判断**：大宗商品供应链再添不确定性。\n- **相关性标签**：产业链/全球市场\n- **来源标签**：Bloomberg\n\n### 17. 英特尔与马斯克合作推进大型芯片制造计划\n- **原文链接**：https://www.bloomberg.com/news/newsletters/2026-04-13/musk-finds-a-partner-in-intel-for-dream-of-terafab-chip-plant\n- **摘要**：特斯拉CEO马斯克正组建团队推进Terafab芯片制造工厂计划，并与英特尔合作。\n- **影响判断**：AI芯片产能扩张可能重塑半导体竞争格局。\n- **相关性标签**：AI科技/公司\n- **来源标签**：Bloomberg\n\n### 18. 劳芬奇被判有罪 因叙利亚内战期间向恐怖组织付款\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/holcim-s-lafarge-found-guilty-over-syria-terrorist-payments\n- **摘要**：Holcim旗下Lafarge被巴黎法院判定在叙利亚内战期间向恐怖组织付款以维持水泥厂运营。\n- **影响判断**：企业合规风险在冲突地区再度凸显。\n- **相关性标签**：公司\n- **来源标签**：Bloomberg\n\n### 19. IMF世界银行春季会议五大看点\n- **原文链接**：https://www.bloomberg.com/news/newsletters/2026-04-13/imf-world-bank-meetings-in-dc-five-things-to-watch\n- **摘要**：春季会议在全球不确定性加剧背景下举行，这是六年内第四次面临类似局势。\n- **影响判断**：国际机构讨论或影响全球政策协调方向。\n- **相关性标签**：宏观政策/全球市场\n- **来源标签**：Bloomberg\n\n### 20. 鲁比尼谈伊朗战争、石油冲击与AI繁荣\n- **原文链接**：https://www.bloomberg.com/news/videos/2026-04-13/full-interview-roubini-on-iran-war-oil-shock-ai-boom-video\n- **摘要**：鲁比尼讨论通过升级结束伊朗战争、不预测美全球衰退，以及滞胀事件与全球科技繁荣之间的拉锯。\n- **影响判断**：宏观专家观点提供对当前冲突与科技双重影响的参考。\n- **相关性标签**：全球市场/AI科技/宏观政策\n- **来源标签**：Bloomberg\n\n## C. 1句话结论\n结论：关注地缘冲突引发的能源与供应链风险，同时留意AI科技领域局部机遇，但整体市场宜保持谨慎观望。",
       "response_json": {
         "mail_ok": true,
         "archive_ok": true,
@@ -185,7 +185,7 @@ window.DASHBOARD_DATA = {
       "id": "9ee8d7c6dab2",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-13）",
-      "headline": "过去24小时内筛出 6 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
+      "headline": "Trump 国际事务发言追踪（2026-04-13）",
       "category": "财经 / 国际",
       "schedule": "30 8 * * *",
       "deliver": "local",
@@ -195,11 +195,11 @@ window.DASHBOARD_DATA = {
       "next_run_at": "2026-04-14T08:30:00+08:00",
       "last_run_at": "2026-04-13T08:30:34.773035+08:00",
       "digest_date": "2026-04-13",
-      "digest_created_at": "2026-04-13T13:56:00.113923",
+      "digest_created_at": "2026-04-13T19:15:29.798029",
       "latest_output_file": "/root/.hermes/cron/output/9ee8d7c6dab2/2026-04-13_08-30-34.md",
-      "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/135600-trump国际事务追踪-0830-邮件.md",
-      "summary": "一、今日概览 过去24小时内筛出 6 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。 二、逐条内容 - 发布时间：2026-04-13 12:43（北京时间） 原文要点：The United States to Blockade Ships Entering or Exiting Iranian Ports on April 13 at 10:00 A.M. ET. Thank you for your a 中文翻译：美国将于4月1…",
-      "final_content": "一、今日概览\n过去24小时内筛出 6 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。\n\n二、逐条内容\n- 发布时间：2026-04-13 12:43（北京时间）\n  原文要点：The United States to Blockade Ships Entering or Exiting Iranian Ports on April 13 at 10:00 A.M. ET. Thank you for your a\n  中文翻译：美国将于4月13日东部时间上午10点封锁进出伊朗港口的船只。感谢关注此事！总统DJT\n  涉及国家/地区：美国、伊朗\n  风险等级：高\n  原帖链接：https://trumpstruth.org/statuses/37737\n\n- 发布时间：2026-04-13 09:03（北京时间）\n  原文要点：Pope Leo is WEAK on Crime, and terrible for Foreign Policy. He talks about “fear” of the Trump Administration, but doesn\n  中文翻译：教皇利奥在打击犯罪上软弱无力，对外政策也一塌糊涂。他谈论对特朗普政府的“恐惧”，却只字不提新冠期间天主教廷以及所有其他基督教组织所经历的恐惧——那时他们逮捕神父、牧师和所有人。\n  涉及国家/地区：待确认\n  风险等级：中\n  原帖链接：https://trumpstruth.org/statuses/37728\n\n- 发布时间：2026-04-12 23:30（北京时间）\n  原文要点：RT: Iran promised to open the Strait of Hormuz, and they knowingly failed to do so. This caused anxiety, dislocation, an\n  中文翻译：伊朗承诺开放霍尔木兹海峡，却故意食言。这给全世界许多国家和人民造成了焦虑、混乱和痛苦。他们声称在水中布设了水雷，尽管其整个海军以及大部分“布雷舰”都已不复存在。\n  涉及国家/地区：伊朗、霍尔木兹海峡\n  风险等级：高\n  原帖链接：https://trumpstruth.org/statuses/37722\n\n- 发布时间：2026-04-12 23:30（北京时间）\n  原文要点：So, there you have it, the meeting went well, most points were agreed to, but the only point that really mattered, NUCLE\n  中文翻译：美国海军，世界上最强大的海军，将立即开始封锁任何试图进入或离开的船只。\n  涉及国家/地区：美国\n  风险等级：高\n  原帖链接：https://trumpstruth.org/statuses/37723\n\n- 发布时间：2026-04-12 20:53（北京时间）\n  原文要点：RT: Iran promised to open the Strait of Hormuz, and they knowingly failed to do so. This caused anxiety, dislocation, an\n  中文翻译：伊朗承诺开放霍尔木兹海峡，却故意未履行。这给全世界许多人和国家造成了焦虑、混乱和痛苦。他们声称在水中布设了水雷，尽管其整个海军以及大部分“布雷舰”……\n  涉及国家/地区：伊朗、霍尔木兹海峡\n  风险等级：高\n  原帖链接：https://trumpstruth.org/statuses/37720\n\n- 发布时间：2026-04-12 20:52（北京时间）\n  原文要点：So, there you have it, the meeting went well, most points were agreed to, but the only point that really mattered, NUCLE\n  中文翻译：美国海军，世界上最强大的海军，将立即开始封锁任何试图进入或离开的船只。\n  涉及国家/地区：美国\n  风险等级：高\n  原帖链接：https://trumpstruth.org/statuses/37721\n\n三、一句结论\n今日风险偏向：偏高，需警惕。",
+      "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/191529-trump国际事务追踪-0830-邮件.md",
+      "summary": "# Trump 国际事务发言追踪（2026-04-13） ## 一、今日概览 过去24小时内筛出 10 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。 ## 二、逐条内容 ### 1. 2026-04-13 16:10（北京时间） - **原文要点**：Trump brilliantly calls Iran’s bluff — with his own Strait of Hormuz blockade: https:// nyp…",
+      "final_content": "# Trump 国际事务发言追踪（2026-04-13）\n\n## 一、今日概览\n过去24小时内筛出 10 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。\n\n## 二、逐条内容\n### 1. 2026-04-13 16:10（北京时间）\n- **原文要点**：Trump brilliantly calls Iran’s bluff — with his own Strait of Hormuz blockade: https:// nypost.com/2026/04/12/opinion/ t\n- **中文翻译**：特朗普巧妙回击伊朗的虚张声势——用自己的霍尔木兹海峡封锁反制：https://nypost.com/2026/04/12/opinion/trump-brilliantly-calls-irans-bluff-with-his-own-strait-of-hormuz-blockade/\n- **涉及国家/地区**：伊朗、霍尔木兹海峡\n- **风险等级**：高\n- **原帖链接**：https://trumpstruth.org/statuses/37743\n\n### 2. 2026-04-13 14:37（北京时间）\n- **原文要点**：Impeachment Bombshell: Secret memos expose Ukraine accuser’s bias, hearsay, and false claim: https:// justthenews.com/ac\n- **中文翻译**：原文大意：Impeachment Bombshell: Secret memos expose Ukraine accuser’s bias, hearsay, and false claim: https:// justthenews.com/ac\n- **涉及国家/地区**：乌克兰\n- **风险等级**：中\n- **原帖链接**：https://trumpstruth.org/statuses/37739\n\n### 3. 2026-04-13 14:36（北京时间）\n- **原文要点**：The Trump card the president holds if Iran won’t bend: a naval blockade: https:// justthenews.com/government/sec urity/t\n- **中文翻译**：这条内容讨论如果伊朗不让步，特朗普政府可能动用海上封锁作为施压手段。\n- **涉及国家/地区**：伊朗\n- **风险等级**：高\n- **原帖链接**：https://trumpstruth.org/statuses/37741\n\n### 4. 2026-04-13 14:35（北京时间）\n- **原文要点**：Impeachment Bombshell: Secret memos expose Ukraine accuser’s bias, hearsay, and false claim: https:// justthenews.com/ac\n- **中文翻译**：原文大意：Impeachment Bombshell: Secret memos expose Ukraine accuser’s bias, hearsay, and false claim: https:// justthenews.com/ac\n- **涉及国家/地区**：乌克兰\n- **风险等级**：中\n- **原帖链接**：https://trumpstruth.org/statuses/37742\n\n### 5. 2026-04-13 12:43（北京时间）\n- **原文要点**：The United States to Blockade Ships Entering or Exiting Iranian Ports on April 13 at 10:00 A.M. ET. Thank you for your a\n- **中文翻译**：美国将于东部时间4月13日上午10时封锁进出伊朗港口的船只。感谢大家对此事的关注！\n\n总统 DJT\n- **涉及国家/地区**：美国、伊朗\n- **风险等级**：高\n- **原帖链接**：https://trumpstruth.org/statuses/37737\n\n### 6. 2026-04-13 09:03（北京时间）\n- **原文要点**：Pope Leo is WEAK on Crime, and terrible for Foreign Policy. He talks about “fear” of the Trump Administration, but doesn\n- **中文翻译**：教皇利奥在打击犯罪方面软弱无力，对外政策也一塌糊涂。他谈论对特朗普政府的“恐惧”，却只字不提天主教会在COVID期间与其他所有基督教组织所遭受的恐惧——当时他们逮捕神父、牧师和所有人。\n- **涉及国家/地区**：待确认\n- **风险等级**：中\n- **原帖链接**：https://trumpstruth.org/statuses/37728\n\n### 7. 2026-04-12 23:30（北京时间）\n- **原文要点**：RT: Iran promised to open the Strait of Hormuz, and they knowingly failed to do so. This caused anxiety, dislocation, an\n- **中文翻译**：伊朗承诺开放霍尔木兹海峡，却故意未履行。此举给全世界许多民众和国家造成焦虑、混乱和痛苦。他们声称在水中布设水雷，尽管其整个海军以及大部分“布雷舰”\n- **涉及国家/地区**：伊朗、霍尔木兹海峡\n- **风险等级**：高\n- **原帖链接**：https://trumpstruth.org/statuses/37722\n\n### 8. 2026-04-12 23:30（北京时间）\n- **原文要点**：So, there you have it, the meeting went well, most points were agreed to, but the only point that really mattered, NUCLE\n- **中文翻译**：美国海军，世界最强，即日起开始封锁任何试图进入或离开的船只。\n- **涉及国家/地区**：美国\n- **风险等级**：高\n- **原帖链接**：https://trumpstruth.org/statuses/37723\n\n## 三、一句结论\n今日风险偏向：偏高，需警惕。",
       "response_json": {
         "ok": true,
         "mail_ok": true,
@@ -235,6 +235,48 @@ window.DASHBOARD_DATA = {
   "history": [
     {
       "id": "hist-1",
+      "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
+      "title": "每日财经情报20条（2026-04-13）",
+      "headline": "每日财经情报20条（2026-04-13）",
+      "category": "财经 / 国际",
+      "schedule": "15 8 * * *",
+      "last_run_at": "2026-04-13T08:15:26.336102+08:00",
+      "digest_date": "2026-04-13",
+      "digest_created_at": "2026-04-13T19:16:06.664247",
+      "summary": "# 每日财经情报20条（2026-04-13） ## A. 必看5条 ### 1. 油价重回100美元上方 美国封锁霍尔木兹海峡引发市场震荡 - **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/oil-surges-us-futures-drop-on-hormuz-blockade-markets-wrap - **摘要**：油价重回100美元上方，美国总统特朗普下令封锁霍尔木兹海峡，此举针对与伊朗港口相关的船只。股市下跌，债券收益率小幅上升…",
+      "final_content": "# 每日财经情报20条（2026-04-13）\n\n## A. 必看5条\n\n### 1. 油价重回100美元上方 美国封锁霍尔木兹海峡引发市场震荡\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/oil-surges-us-futures-drop-on-hormuz-blockade-markets-wrap\n- **摘要**：油价重回100美元上方，美国总统特朗普下令封锁霍尔木兹海峡，此举针对与伊朗港口相关的船只。股市下跌，债券收益率小幅上升，全球能源供应风险急剧上升。\n- **影响判断**：能源价格冲击将直接影响全球通胀和经济增长，短期市场波动剧烈。\n- **相关性标签**：全球市场/宏观政策/产业链\n- **来源标签**：Bloomberg\n\n### 2. 铝价飙升至四年新高 霍尔木兹封锁威胁海湾运输\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/copper-falls-aluminum-spreads-spike-as-us-plans-hormuz-blockade\n- **摘要**：受美国封锁伊朗港口计划影响，伦敦铝价跳升至四年高点，海湾地区运输中断风险上升。铜价则出现下跌，金属市场分化明显。\n- **影响判断**：大宗商品供应链受地缘冲突直接冲击，工业成本面临上升压力。\n- **相关性标签**：全球市场/产业链\n- **来源标签**：Bloomberg\n\n### 3. 台湾计划军演应对中国能源封锁风险\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/taiwan-plans-drills-to-break-potential-chinese-energy-blockade\n- **摘要**：台湾将进行新演习，确保关键物资供应，以应对潜在中国能源封锁。伊朗关闭全球能源咽喉的案例凸显了这一风险。\n- **影响判断**：地缘紧张局势下，台湾供应链安全成为市场关注焦点。\n- **相关性标签**：涉华\n- **来源标签**：Bloomberg\n\n### 4. 中国30年期国债上涨 市场押注发行期限缩短\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/china-s-30-year-bonds-gain-amid-bets-on-issuance-duration-cut\n- **摘要**：中国超长期政府债券走高，交易员押注北京可能缩短特别债务发行期限以缓解供应压力。\n- **影响判断**：中国债券市场动态反映财政政策微调预期，对国内流动性影响显著。\n- **相关性标签**：涉华/宏观政策\n- **来源标签**：Bloomberg\n\n### 5. 英特尔股价四月暴涨1000亿美元 成市场最热股票\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/intel-s-100-billion-april-rally-makes-it-market-s-hottest-stock\n- **摘要**：英特尔股价在四月连续八天上涨，市值增加超过1000亿美元，成为标普500中最热门个股。马斯克与英特尔合作推进芯片制造计划。\n- **影响判断**：AI芯片领域动态直接影响科技股估值和产业链布局。\n- **相关性标签**：AI科技/公司\n- **来源标签**：Bloomberg\n\n## B. 其他重点15条（总计20条）\n\n### 6. 印度通胀回升 中东战争推高能源成本\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/india-inflation-picks-up-as-mideast-crisis-lifts-energy-costs\n- **摘要**：印度3月通胀小幅上升，中东战争导致原油价格上涨并挤压关键行业天然气供应。\n- **影响判断**：新兴市场通胀压力增加，可能影响货币政策路径。\n- **相关性标签**：全球市场/宏观政策\n- **来源标签**：Bloomberg\n\n### 7. 匈牙利欧尔班败选 福林特和股市大幅上涨\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/forint-jumps-to-three-year-high-as-hungary-s-orban-is-voted-out\n- **摘要**：匈牙利反对派取得压倒性胜利后，福林特升至四年高点，本地股市创纪录。市场预期欧盟资金解冻和经济复苏。\n- **影响判断**：欧盟内部政治变化或为区域经济注入新动力。\n- **相关性标签**：全球市场/宏观政策\n- **来源标签**：Bloomberg\n\n### 8. 日本央行行长植田讲话冷却四月加息预期\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/ueda-s-speech-shows-rising-caution-without-clear-hints-on-rate\n- **摘要**：日本央行行长植田保持政策选项开放，对美伊冲突影响持谨慎态度，冷却市场对本月加息的押注。\n- **影响判断**：央行信号影响日元汇率和全球利率预期。\n- **相关性标签**：宏观政策\n- **来源标签**：Bloomberg\n\n### 9. 中国Victory Giant寻求香港上市融资22亿美元\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/china-s-victory-giant-seeks-up-to-2-2-billion-in-hong-kong-listing\n- **摘要**：中国惠州胜利巨科技启动香港上市程序，拟融资高达22亿美元，可能成为今年香港最大IPO之一。\n- **影响判断**：中资企业海外上市动态反映融资环境变化。\n- **相关性标签**：涉华/公司\n- **来源标签**：Bloomberg\n\n### 10. 马来西亚芯片设计公司Skyechip签署IPO承销协议\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/chip-designer-skyechip-inks-underwriting-deal-for-malaysia-ipo\n- **摘要**：马来西亚芯片设计公司Skyechip与本地银行签署承销协议，IPO所得款项将用于人工智能产品研发。\n- **影响判断**：东南亚AI产业链布局加速。\n- **相关性标签**：AI科技/产业链\n- **来源标签**：Bloomberg\n\n### 11. 伊朗战争加剧对全球经济安全网的担忧\n- **原文链接**：https://www.bloomberg.com/news/newsletters/2026-04-13/global-economy-and-oil-shock-and-fiscal-buffers\n- **摘要**：危机专家称当前是20年来最糟糕的处境之一，伊朗战争冲击全球经济缓冲机制。\n- **影响判断**：地缘风险对全球财政和经济韧性的考验加剧。\n- **相关性标签**：全球市场/宏观政策\n- **来源标签**：Bloomberg\n\n### 12. 台湾领导人计划访问非洲最后外交盟友\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/taiwan-leader-to-visit-eswatini-in-first-foreign-trip-since-2024\n- **摘要**：台湾总统赖清德计划访问斯威士兰，这是其自2024年12月以来首次出访，斯威士兰是台湾在非洲的最后一个外交盟友。\n- **影响判断**：台湾外交动态值得关注地缘政治格局。\n- **相关性标签**：涉华\n- **来源标签**：Bloomberg\n\n### 13. 中国向台湾提供优惠政策 此前与反对党会谈\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-12/china-unveils-taiwan-goodwill-steps-after-rare-opposition-talks\n- **摘要**：中国在与台湾反对党领袖会晤后宣布一系列对台政策优惠措施。\n- **影响判断**：两岸关系出现新信号，可能影响区域稳定预期。\n- **相关性标签**：涉华\n- **来源标签**：Bloomberg\n\n### 14. 欧洲央行官员称能源价格仍接近基准情景\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/ecb-s-vujcic-says-energy-prices-are-still-very-close-to-baseline\n- **摘要**：欧洲央行管委成员表示，尽管能源成本自停火后上升，但仍接近基准情景。\n- **影响判断**：欧元区货币政策判断受能源因素影响有限。\n- **相关性标签**：宏观政策\n- **来源标签**：Bloomberg\n\n### 15. 波兰最大银行加快匈牙利分行开设计划\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/top-polish-bank-pko-speeds-up-hungary-branch-plan-after-election\n- **摘要**：波兰最大贷款机构PKO Bank Polski在亲欧盟反对派胜选后加快评估在匈牙利开设分行。\n- **影响判断**：中东欧银行业务扩张反映政治环境变化。\n- **相关性标签**：全球市场/公司\n- **来源标签**：Bloomberg\n\n### 16. 安哥拉洪水中断Lobito铁路 影响中非矿产出口\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/angola-flooding-halts-traffic-on-lobito-rail-disrupting-exports\n- **摘要**：安哥拉西部洪水导致Lobito走廊铁路运输暂停，干扰中非关键矿产出口路线。\n- **影响判断**：大宗商品供应链再添不确定性。\n- **相关性标签**：产业链/全球市场\n- **来源标签**：Bloomberg\n\n### 17. 英特尔与马斯克合作推进大型芯片制造计划\n- **原文链接**：https://www.bloomberg.com/news/newsletters/2026-04-13/musk-finds-a-partner-in-intel-for-dream-of-terafab-chip-plant\n- **摘要**：特斯拉CEO马斯克正组建团队推进Terafab芯片制造工厂计划，并与英特尔合作。\n- **影响判断**：AI芯片产能扩张可能重塑半导体竞争格局。\n- **相关性标签**：AI科技/公司\n- **来源标签**：Bloomberg\n\n### 18. 劳芬奇被判有罪 因叙利亚内战期间向恐怖组织付款\n- **原文链接**：https://www.bloomberg.com/news/articles/2026-04-13/holcim-s-lafarge-found-guilty-over-syria-terrorist-payments\n- **摘要**：Holcim旗下Lafarge被巴黎法院判定在叙利亚内战期间向恐怖组织付款以维持水泥厂运营。\n- **影响判断**：企业合规风险在冲突地区再度凸显。\n- **相关性标签**：公司\n- **来源标签**：Bloomberg\n\n### 19. IMF世界银行春季会议五大看点\n- **原文链接**：https://www.bloomberg.com/news/newsletters/2026-04-13/imf-world-bank-meetings-in-dc-five-things-to-watch\n- **摘要**：春季会议在全球不确定性加剧背景下举行，这是六年内第四次面临类似局势。\n- **影响判断**：国际机构讨论或影响全球政策协调方向。\n- **相关性标签**：宏观政策/全球市场\n- **来源标签**：Bloomberg\n\n### 20. 鲁比尼谈伊朗战争、石油冲击与AI繁荣\n- **原文链接**：https://www.bloomberg.com/news/videos/2026-04-13/full-interview-roubini-on-iran-war-oil-shock-ai-boom-video\n- **摘要**：鲁比尼讨论通过升级结束伊朗战争、不预测美全球衰退，以及滞胀事件与全球科技繁荣之间的拉锯。\n- **影响判断**：宏观专家观点提供对当前冲突与科技双重影响的参考。\n- **相关性标签**：全球市场/AI科技/宏观政策\n- **来源标签**：Bloomberg\n\n## C. 1句话结论\n结论：关注地缘冲突引发的能源与供应链风险，同时留意AI科技领域局部机遇，但整体市场宜保持谨慎观望。",
+      "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/191606-bloombergft-财经简报-0815-邮件.md"
+    },
+    {
+      "id": "hist-2",
+      "job_name": "Morning latest news briefing (Email QQ) [hermes]",
+      "title": "【早报】国内外要闻简报（2026-04-13）",
+      "headline": "【早报】国内外要闻简报（2026-04-13）",
+      "category": "综合简报",
+      "schedule": "0 8 * * *",
+      "last_run_at": "2026-04-13T08:01:09.606769+08:00",
+      "digest_date": "2026-04-13",
+      "digest_created_at": "2026-04-13T19:15:31.129443",
+      "summary": "# 【早报】国内外要闻简报（2026-04-13） ## 今日7条 ### 1. 我国对美启动两项贸易壁垒调查 - **摘要**：商务部3月27日依据《对外贸易法》和《对外贸易壁垒调查规则》，针对美国两起301调查，对美国破坏全球产供链相关做法及阻碍绿色产品贸易相关做法发起两项贸易壁垒调查。中方表示将依法推进调查，并视情况采取措施维护正当权益。 - **为什么重要**：这是今日国内政策面最直接的外贸动作，反映中方在贸易与产业链议题上的防御姿态正在转强。 - **来源**：新华社 - **原文链接**：http://…",
+      "final_content": "# 【早报】国内外要闻简报（2026-04-13）\n\n## 今日7条\n\n### 1. 我国对美启动两项贸易壁垒调查\n\n- **摘要**：商务部3月27日依据《对外贸易法》和《对外贸易壁垒调查规则》，针对美国两起301调查，对美国破坏全球产供链相关做法及阻碍绿色产品贸易相关做法发起两项贸易壁垒调查。中方表示将依法推进调查，并视情况采取措施维护正当权益。\n- **为什么重要**：这是今日国内政策面最直接的外贸动作，反映中方在贸易与产业链议题上的防御姿态正在转强。\n- **来源**：新华社\n- **原文链接**：http://www.xinhuanet.com/fortune/20260327/2abd7872df7942d18e7d7bfbfc2bf58a/c.html\n\n### 2. 前2个月全国规模以上工业企业利润同比增长15.2%\n\n- **摘要**：新华社3月27日消息称，2026年前两个月全国规模以上工业企业利润同比增长15.2%。这显示工业部门盈利修复延续，景气度在年初继续改善。\n- **为什么重要**：利润修复说明实体经济韧性仍在，对后续市场风险偏好和稳增长预期都有支撑。\n- **来源**：新华社\n- **原文链接**：https://www.news.cn/20260327/acae5a46f8264d0c841e8c4156208861/c.html\n\n### 3. 2026年中央部门预算集中向社会公开\n\n- **摘要**：财政部要求各部门原则上公开一般公共预算、政府性基金预算和国有资本经营预算项目绩效目标表，公开比例不低于项目数量的60%。预算公开继续在各部门网站和财政部门户平台同步集中展示。\n- **为什么重要**：预算公开力度提升，有助于增强财政透明度，也释放政策执行更注重绩效与约束的信号。\n- **来源**：人民日报\n- **原文链接**：http://finance.people.com.cn/n1/2026/0327/c1004-40689777.html\n\n### 4. 研究称两年内中国或将超越美国成最大公共科学资助国\n\n- **摘要**：根据《自然-指数》最新分析，按购买力平价调整后，中国政府研发支出十年增长约90%，与美国差距明显收窄。研究预计未来两到三年中国可能超过美国，成为全球最大的公共科学资助国。\n- **为什么重要**：这意味着中国在长期科技竞争中的资源投入正持续抬升，值得关注对科研与产业升级的传导。\n- **来源**：财新\n- **原文链接**：https://science.caixin.com/2026-03-27/102427921.html\n\n### 5. 油价升至2022年以来最高水平，伊朗谈判未能缓解供应担忧\n\n- **摘要**：CNBC称，随着围绕霍尔木兹海峡的风险持续发酵，国际油价在3月27日升至2022年以来最高水平。即便美方称已有部分油轮通行，市场仍担忧中东供应链进一步受扰。\n- **为什么重要**：能源价格再度成为全球资产定价的核心变量，后续将直接影响通胀与风险偏好。\n- **来源**：CNBC\n- **原文链接**：https://www.cnbc.com/2026/03/27/oil-price-wti-brent-crude-trump-strait-hormuz-tensions-iran-ships.html\n\n### 6. 科技股遭遇近一年来最差单周表现\n\n- **摘要**：CNBC报道，受中东战事推升油价、Meta法律挫折及Micron大跌等因素影响，科技股录得近一年来最差单周表现。高估值成长板块对能源冲击和风险偏好收缩尤为敏感。\n- **为什么重要**：说明此前领涨的高估值科技板块在宏观扰动面前仍较脆弱，短期波动可能继续放大。\n- **来源**：CNBC\n- **原文链接**：https://www.cnbc.com/2026/03/27/tech-stocks-iran-war-meta-verdict.html\n\n### 7. 美方称预计数周内结束对伊朗军事行动并讨论护航\n\n- **摘要**：BBC援引美国国务卿鲁比奥表态称，美方预计将在未来几周内结束伊朗战事，并称盟友对协助护航霍尔木兹海峡持开放态度。该表态显示军事与航运安全安排正在同步推进，但地区局势仍高度紧张。\n- **为什么重要**：若护航机制落地，或将影响全球航运与油运预期，但地区紧张仍未实质解除。\n- **来源**：BBC\n- **原文链接**：https://www.bbc.com/news/articles/c1l9vz064nqo?at_medium=RSS&at_campaign=rss\n\n## 今日观察\n\n国内主线仍是稳增长、提透明度与增强科技投入，政策与基本面信号整体偏稳。\n国际主线则仍围绕中东局势、油价冲击和科技股估值回撤展开，全球市场短期将继续受能源与地缘风险牵引。\n对资产定价而言，接下来最值得盯的是油价、航运安全与风险偏好是否进一步恶化。",
+      "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/191531-morning-latest-news-briefing-email-qq.md"
+    },
+    {
+      "id": "hist-3",
+      "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
+      "title": "Trump 国际事务发言追踪（2026-04-13）",
+      "headline": "Trump 国际事务发言追踪（2026-04-13）",
+      "category": "财经 / 国际",
+      "schedule": "30 8 * * *",
+      "last_run_at": "2026-04-13T08:30:34.773035+08:00",
+      "digest_date": "2026-04-13",
+      "digest_created_at": "2026-04-13T19:15:29.798029",
+      "summary": "# Trump 国际事务发言追踪（2026-04-13） ## 一、今日概览 过去24小时内筛出 10 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。 ## 二、逐条内容 ### 1. 2026-04-13 16:10（北京时间） - **原文要点**：Trump brilliantly calls Iran’s bluff — with his own Strait of Hormuz blockade: https:// nyp…",
+      "final_content": "# Trump 国际事务发言追踪（2026-04-13）\n\n## 一、今日概览\n过去24小时内筛出 10 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。\n\n## 二、逐条内容\n### 1. 2026-04-13 16:10（北京时间）\n- **原文要点**：Trump brilliantly calls Iran’s bluff — with his own Strait of Hormuz blockade: https:// nypost.com/2026/04/12/opinion/ t\n- **中文翻译**：特朗普巧妙回击伊朗的虚张声势——用自己的霍尔木兹海峡封锁反制：https://nypost.com/2026/04/12/opinion/trump-brilliantly-calls-irans-bluff-with-his-own-strait-of-hormuz-blockade/\n- **涉及国家/地区**：伊朗、霍尔木兹海峡\n- **风险等级**：高\n- **原帖链接**：https://trumpstruth.org/statuses/37743\n\n### 2. 2026-04-13 14:37（北京时间）\n- **原文要点**：Impeachment Bombshell: Secret memos expose Ukraine accuser’s bias, hearsay, and false claim: https:// justthenews.com/ac\n- **中文翻译**：原文大意：Impeachment Bombshell: Secret memos expose Ukraine accuser’s bias, hearsay, and false claim: https:// justthenews.com/ac\n- **涉及国家/地区**：乌克兰\n- **风险等级**：中\n- **原帖链接**：https://trumpstruth.org/statuses/37739\n\n### 3. 2026-04-13 14:36（北京时间）\n- **原文要点**：The Trump card the president holds if Iran won’t bend: a naval blockade: https:// justthenews.com/government/sec urity/t\n- **中文翻译**：这条内容讨论如果伊朗不让步，特朗普政府可能动用海上封锁作为施压手段。\n- **涉及国家/地区**：伊朗\n- **风险等级**：高\n- **原帖链接**：https://trumpstruth.org/statuses/37741\n\n### 4. 2026-04-13 14:35（北京时间）\n- **原文要点**：Impeachment Bombshell: Secret memos expose Ukraine accuser’s bias, hearsay, and false claim: https:// justthenews.com/ac\n- **中文翻译**：原文大意：Impeachment Bombshell: Secret memos expose Ukraine accuser’s bias, hearsay, and false claim: https:// justthenews.com/ac\n- **涉及国家/地区**：乌克兰\n- **风险等级**：中\n- **原帖链接**：https://trumpstruth.org/statuses/37742\n\n### 5. 2026-04-13 12:43（北京时间）\n- **原文要点**：The United States to Blockade Ships Entering or Exiting Iranian Ports on April 13 at 10:00 A.M. ET. Thank you for your a\n- **中文翻译**：美国将于东部时间4月13日上午10时封锁进出伊朗港口的船只。感谢大家对此事的关注！\n\n总统 DJT\n- **涉及国家/地区**：美国、伊朗\n- **风险等级**：高\n- **原帖链接**：https://trumpstruth.org/statuses/37737\n\n### 6. 2026-04-13 09:03（北京时间）\n- **原文要点**：Pope Leo is WEAK on Crime, and terrible for Foreign Policy. He talks about “fear” of the Trump Administration, but doesn\n- **中文翻译**：教皇利奥在打击犯罪方面软弱无力，对外政策也一塌糊涂。他谈论对特朗普政府的“恐惧”，却只字不提天主教会在COVID期间与其他所有基督教组织所遭受的恐惧——当时他们逮捕神父、牧师和所有人。\n- **涉及国家/地区**：待确认\n- **风险等级**：中\n- **原帖链接**：https://trumpstruth.org/statuses/37728\n\n### 7. 2026-04-12 23:30（北京时间）\n- **原文要点**：RT: Iran promised to open the Strait of Hormuz, and they knowingly failed to do so. This caused anxiety, dislocation, an\n- **中文翻译**：伊朗承诺开放霍尔木兹海峡，却故意未履行。此举给全世界许多民众和国家造成焦虑、混乱和痛苦。他们声称在水中布设水雷，尽管其整个海军以及大部分“布雷舰”\n- **涉及国家/地区**：伊朗、霍尔木兹海峡\n- **风险等级**：高\n- **原帖链接**：https://trumpstruth.org/statuses/37722\n\n### 8. 2026-04-12 23:30（北京时间）\n- **原文要点**：So, there you have it, the meeting went well, most points were agreed to, but the only point that really mattered, NUCLE\n- **中文翻译**：美国海军，世界最强，即日起开始封锁任何试图进入或离开的船只。\n- **涉及国家/地区**：美国\n- **风险等级**：高\n- **原帖链接**：https://trumpstruth.org/statuses/37723\n\n## 三、一句结论\n今日风险偏向：偏高，需警惕。",
+      "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/191529-trump国际事务追踪-0830-邮件.md"
+    },
+    {
+      "id": "hist-4",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-13",
       "headline": "AI Daily Digest（6大分类）- 2026-04-13",
@@ -248,7 +290,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/135739-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-2",
+      "id": "hist-5",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-13）",
       "headline": "过去24小时内筛出 6 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -262,7 +304,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/135600-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-3",
+      "id": "hist-6",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-13）",
       "headline": "每日财经情报20条（2026-04-13）",
@@ -276,7 +318,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/135553-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-4",
+      "id": "hist-7",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-13",
       "headline": "AI Daily Digest（6大分类）- 2026-04-13",
@@ -290,7 +332,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/123224-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-5",
+      "id": "hist-8",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-13）",
       "headline": "过去24小时内筛出 6 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -304,7 +346,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/094832-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-6",
+      "id": "hist-9",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-13）",
       "headline": "每日财经情报20条（2026-04-13）",
@@ -318,21 +360,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/094817-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-7",
-      "job_name": "Morning latest news briefing (Email QQ) [hermes]",
-      "title": "【早报】国内外要闻简报（2026-04-13）",
-      "headline": "【早报】国内外要闻简报（2026-04-13）",
-      "category": "综合简报",
-      "schedule": "0 8 * * *",
-      "last_run_at": "2026-04-13T08:01:09.606769+08:00",
-      "digest_date": "2026-04-13",
-      "digest_created_at": "2026-04-13T09:47:46.545647",
-      "summary": "# 【早报】国内外要闻简报（2026-04-13） ## 今日7条 ### 1. 我国对美启动两项贸易壁垒调查 - **摘要**：商务部3月27日依据《对外贸易法》和《对外贸易壁垒调查规则》，针对美国两起301调查，对美国破坏全球产供链相关做法及阻碍绿色产品贸易相关做法发起两项贸易壁垒调查。中方表示将依法推进调查，并视情况采取措施维护正当权益。 - **为什么重要**：这是今日国内政策面最直接的外贸动作，反映中方在贸易与产业链议题上的防御姿态正在转强。 - **来源**：新华社 - **原文链接**：http://…",
-      "final_content": "# 【早报】国内外要闻简报（2026-04-13）\n\n## 今日7条\n\n### 1. 我国对美启动两项贸易壁垒调查\n\n- **摘要**：商务部3月27日依据《对外贸易法》和《对外贸易壁垒调查规则》，针对美国两起301调查，对美国破坏全球产供链相关做法及阻碍绿色产品贸易相关做法发起两项贸易壁垒调查。中方表示将依法推进调查，并视情况采取措施维护正当权益。\n- **为什么重要**：这是今日国内政策面最直接的外贸动作，反映中方在贸易与产业链议题上的防御姿态正在转强。\n- **来源**：新华社\n- **原文链接**：http://www.xinhuanet.com/fortune/20260327/2abd7872df7942d18e7d7bfbfc2bf58a/c.html\n\n### 2. 前2个月全国规模以上工业企业利润同比增长15.2%\n\n- **摘要**：新华社3月27日消息称，2026年前两个月全国规模以上工业企业利润同比增长15.2%。这显示工业部门盈利修复延续，景气度在年初继续改善。\n- **为什么重要**：利润修复说明实体经济韧性仍在，对后续市场风险偏好和稳增长预期都有支撑。\n- **来源**：新华社\n- **原文链接**：https://www.news.cn/20260327/acae5a46f8264d0c841e8c4156208861/c.html\n\n### 3. 2026年中央部门预算集中向社会公开\n\n- **摘要**：财政部要求各部门原则上公开一般公共预算、政府性基金预算和国有资本经营预算项目绩效目标表，公开比例不低于项目数量的60%。预算公开继续在各部门网站和财政部门户平台同步集中展示。\n- **为什么重要**：预算公开力度提升，有助于增强财政透明度，也释放政策执行更注重绩效与约束的信号。\n- **来源**：人民日报\n- **原文链接**：http://finance.people.com.cn/n1/2026/0327/c1004-40689777.html\n\n### 4. 研究称两年内中国或将超越美国成最大公共科学资助国\n\n- **摘要**：根据《自然-指数》最新分析，按购买力平价调整后，中国政府研发支出十年增长约90%，与美国差距明显收窄。研究预计未来两到三年中国可能超过美国，成为全球最大的公共科学资助国。\n- **为什么重要**：这意味着中国在长期科技竞争中的资源投入正持续抬升，值得关注对科研与产业升级的传导。\n- **来源**：财新\n- **原文链接**：https://science.caixin.com/2026-03-27/102427921.html\n\n### 5. 油价升至2022年以来最高水平，伊朗谈判未能缓解供应担忧\n\n- **摘要**：CNBC称，随着围绕霍尔木兹海峡的风险持续发酵，国际油价在3月27日升至2022年以来最高水平。即便美方称已有部分油轮通行，市场仍担忧中东供应链进一步受扰。\n- **为什么重要**：能源价格再度成为全球资产定价的核心变量，后续将直接影响通胀与风险偏好。\n- **来源**：CNBC\n- **原文链接**：https://www.cnbc.com/2026/03/27/oil-price-wti-brent-crude-trump-strait-hormuz-tensions-iran-ships.html\n\n### 6. 科技股遭遇近一年来最差单周表现\n\n- **摘要**：CNBC报道，受中东战事推升油价、Meta法律挫折及Micron大跌等因素影响，科技股录得近一年来最差单周表现。高估值成长板块对能源冲击和风险偏好收缩尤为敏感。\n- **为什么重要**：说明此前领涨的高估值科技板块在宏观扰动面前仍较脆弱，短期波动可能继续放大。\n- **来源**：CNBC\n- **原文链接**：https://www.cnbc.com/2026/03/27/tech-stocks-iran-war-meta-verdict.html\n\n### 7. 美方称预计数周内结束对伊朗军事行动并讨论护航\n\n- **摘要**：BBC援引美国国务卿鲁比奥表态称，美方预计将在未来几周内结束伊朗战事，并称盟友对协助护航霍尔木兹海峡持开放态度。该表态显示军事与航运安全安排正在同步推进，但地区局势仍高度紧张。\n- **为什么重要**：若护航机制落地，或将影响全球航运与油运预期，但地区紧张仍未实质解除。\n- **来源**：BBC\n- **原文链接**：https://www.bbc.com/news/articles/c1l9vz064nqo?at_medium=RSS&at_campaign=rss\n\n## 今日观察\n\n国内主线仍是稳增长、提透明度与增强科技投入，政策与基本面信号整体偏稳。\n国际主线则仍围绕中东局势、油价冲击和科技股估值回撤展开，全球市场短期将继续受能源与地缘风险牵引。\n对资产定价而言，接下来最值得盯的是油价、航运安全与风险偏好是否进一步恶化。",
-      "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/094746-morning-latest-news-briefing-email-qq.md"
-    },
-    {
-      "id": "hist-8",
+      "id": "hist-10",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-13）",
       "headline": "过去24小时内筛出 6 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -346,7 +374,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/094600-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-9",
+      "id": "hist-11",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-13）",
       "headline": "每日财经情报20条（2026-04-13）",
@@ -360,7 +388,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/094545-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-10",
+      "id": "hist-12",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-13）",
       "headline": "每日财经情报20条（2026-04-13）",
@@ -374,7 +402,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/091107-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-11",
+      "id": "hist-13",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-04-13）",
       "headline": "情报异动雷达（2026-04-13）",
@@ -388,7 +416,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/091047-情报异动雷达日更.md"
     },
     {
-      "id": "hist-12",
+      "id": "hist-14",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-13）",
       "headline": "每日财经情报20条（2026-04-13）",
@@ -402,7 +430,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/090938-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-13",
+      "id": "hist-15",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-13）",
       "headline": "过去24小时内筛出 6 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -416,7 +444,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/090908-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-14",
+      "id": "hist-16",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-13）",
       "headline": "过去24小时内筛出 5 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -430,7 +458,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/085558-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-15",
+      "id": "hist-17",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-13）",
       "headline": "过去24小时内筛出 5 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -444,7 +472,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/085522-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-16",
+      "id": "hist-18",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-13）",
       "headline": "每日财经情报20条（2026-04-13）",
@@ -458,7 +486,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/085513-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-17",
+      "id": "hist-19",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-13）",
       "headline": "每日财经情报20条（2026-04-13）",
@@ -472,7 +500,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/084506-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-18",
+      "id": "hist-20",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-13）",
       "headline": "过去24小时内筛出 5 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -486,7 +514,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/083031-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-19",
+      "id": "hist-21",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-13）",
       "headline": "【早报】国内外要闻简报（2026-04-13）",
@@ -500,7 +528,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-13/080103-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-20",
+      "id": "hist-22",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-12",
       "headline": "AI Daily Digest（6大分类）- 2026-04-12",
@@ -514,7 +542,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-12/123244-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-21",
+      "id": "hist-23",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-12）",
       "headline": "**极简财经情报****2026-04-12**",
@@ -528,7 +556,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-12/104427-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-22",
+      "id": "hist-24",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-12）",
       "headline": "【早报】国内外要闻简报（2026-04-12）",
@@ -542,7 +570,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-12/104352-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-23",
+      "id": "hist-25",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-04-12）",
       "headline": "情报异动雷达（2026-04-12）",
@@ -556,7 +584,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-12/104351-情报异动雷达日更.md"
     },
     {
-      "id": "hist-24",
+      "id": "hist-26",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-12）",
       "headline": "过去24小时内筛出 5 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -570,7 +598,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-12/104346-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-25",
+      "id": "hist-27",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-04-12）",
       "headline": "情报异动雷达（2026-04-12）",
@@ -584,7 +612,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-12/104345-情报异动雷达日更.md"
     },
     {
-      "id": "hist-26",
+      "id": "hist-28",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-11",
       "headline": "AI Daily Digest（6大分类）- 2026-04-11",
@@ -598,7 +626,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-11/143106-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-27",
+      "id": "hist-29",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-11",
       "headline": "📰 AI 博客每日精选 — 2026-04-11",
@@ -612,7 +640,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-11/142042-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-28",
+      "id": "hist-30",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-11）",
       "headline": "**2026-04-11极简财经情报**",
@@ -626,7 +654,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-11/140601-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-29",
+      "id": "hist-31",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-11）",
       "headline": "【早报】国内外要闻简报（2026-04-11）",
@@ -640,7 +668,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-11/140539-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-30",
+      "id": "hist-32",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-04-11）",
       "headline": "情报异动雷达（2026-04-11）",
@@ -654,7 +682,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-11/140536-情报异动雷达日更.md"
     },
     {
-      "id": "hist-31",
+      "id": "hist-33",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-11）",
       "headline": "过去24小时内筛出 8 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -668,7 +696,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-11/140532-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-32",
+      "id": "hist-34",
       "job_name": "Hermes Migration Test",
       "title": "Hermes Migration Test",
       "headline": "test content",
@@ -682,7 +710,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.hermes/data/news-archive/archive/2026-04-11/135808-hermes-migration-test.md"
     },
     {
-      "id": "hist-33",
+      "id": "hist-35",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-11）",
       "headline": "过去24小时内筛出 10 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -696,7 +724,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-11/083002-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-34",
+      "id": "hist-36",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-11）",
       "headline": "**极简财经情报****2026-04-11**",
@@ -710,7 +738,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-11/081535-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-35",
+      "id": "hist-37",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-11）",
       "headline": "【早报】国内外要闻简报（2026-04-11）",
@@ -724,7 +752,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-11/080008-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-36",
+      "id": "hist-38",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-10）",
       "headline": "过去24小时内筛出 9 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -738,7 +766,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-10/083010-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-37",
+      "id": "hist-39",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-10）",
       "headline": "**极简财经情报2026-04-10**",
@@ -752,7 +780,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-10/081649-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-38",
+      "id": "hist-40",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-10）",
       "headline": "【早报】国内外要闻简报（2026-04-10）",
@@ -766,7 +794,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-10/080013-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-39",
+      "id": "hist-41",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-09）",
       "headline": "过去24小时内筛出 6 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -780,7 +808,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-09/083007-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-40",
+      "id": "hist-42",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-09）",
       "headline": "**2026-04-09极简财经情报**",
@@ -794,7 +822,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-09/081742-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-41",
+      "id": "hist-43",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-09）",
       "headline": "【早报】国内外要闻简报（2026-04-09）",
@@ -808,7 +836,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-09/080043-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-42",
+      "id": "hist-44",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-08）",
       "headline": "**必看5条**",
@@ -822,7 +850,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-08/084745-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-43",
+      "id": "hist-45",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-08）",
       "headline": "过去24小时内筛出 38 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -836,7 +864,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-08/083004-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-44",
+      "id": "hist-46",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-08）",
       "headline": "**2026-04-08极简财经情报**",
@@ -850,7 +878,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-08/081639-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-45",
+      "id": "hist-47",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-08）",
       "headline": "【早报】国内外要闻简报（2026-04-08）",
@@ -864,7 +892,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-08/080012-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-46",
+      "id": "hist-48",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-07）",
       "headline": "过去24小时内筛出 2 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -878,7 +906,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-07/083002-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-47",
+      "id": "hist-49",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-07）",
       "headline": "**极简财经情报 -2026-04-07**",
@@ -892,7 +920,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-07/081531-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-48",
+      "id": "hist-50",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-07）",
       "headline": "【早报】国内外要闻简报（2026-04-07）",
@@ -906,7 +934,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-07/080009-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-49",
+      "id": "hist-51",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-06",
       "headline": "📰 AI 博客每日精选 — 2026-04-06",
@@ -920,7 +948,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-06/164642-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-50",
+      "id": "hist-52",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-06）",
       "headline": "过去24小时内筛出 4 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -934,7 +962,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-06/164330-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-51",
+      "id": "hist-53",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-06）",
       "headline": "每日财经情报20条（2026-04-06）",
@@ -948,7 +976,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-06/164325-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-52",
+      "id": "hist-54",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-06）",
       "headline": "【早报】国内外要闻简报（2026-04-06）",
@@ -962,7 +990,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-06/164304-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-53",
+      "id": "hist-55",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-06",
       "headline": "📰 AI 博客每日精选 — 2026-04-06",
@@ -976,7 +1004,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-06/163925-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-54",
+      "id": "hist-56",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-06",
       "headline": "📰 AI 博客每日精选 — 2026-04-06",
@@ -990,7 +1018,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-06/123156-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-55",
+      "id": "hist-57",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-06）",
       "headline": "过去24小时内筛出 1 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -1004,7 +1032,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-06/083002-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-56",
+      "id": "hist-58",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-06）",
       "headline": "**极简财经情报 | 2026-04-06**",
@@ -1018,7 +1046,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-06/081530-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-57",
+      "id": "hist-59",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-06）",
       "headline": "【早报】国内外要闻简报（2026-04-06）",
@@ -1032,7 +1060,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-06/080009-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-58",
+      "id": "hist-60",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-05",
       "headline": "📰 AI 博客每日精选 — 2026-04-05",
@@ -1046,7 +1074,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-05/123139-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-59",
+      "id": "hist-61",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-05）",
       "headline": "过去24小时内筛出 4 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -1060,7 +1088,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-05/083002-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-60",
+      "id": "hist-62",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-05）",
       "headline": "**2026-04-05 极简财经情报**",
@@ -1074,7 +1102,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-05/081528-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-61",
+      "id": "hist-63",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-05）",
       "headline": "【早报】国内外要闻简报（2026-04-05）",
@@ -1088,7 +1116,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-05/080009-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-62",
+      "id": "hist-64",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-04",
       "headline": "📰 AI 博客每日精选 — 2026-04-04",
@@ -1102,7 +1130,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-04/123137-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-63",
+      "id": "hist-65",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-04）",
       "headline": "过去24小时内筛出 2 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -1116,7 +1144,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-04/083002-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-64",
+      "id": "hist-66",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-04）",
       "headline": "**极简财经情报 | 2026-04-04**",
@@ -1130,7 +1158,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-04/081533-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-65",
+      "id": "hist-67",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-04）",
       "headline": "【早报】国内外要闻简报（2026-04-04）",
@@ -1144,7 +1172,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-04/080007-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-66",
+      "id": "hist-68",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-03",
       "headline": "📰 AI 博客每日精选 — 2026-04-03",
@@ -1158,7 +1186,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-03/123150-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-67",
+      "id": "hist-69",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-03",
       "headline": "📰 AI 博客每日精选 — 2026-04-03",
@@ -1172,7 +1200,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-03/090143-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-68",
+      "id": "hist-70",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-03）",
       "headline": "**极简财经情报 - 2026-04-03**",
@@ -1186,7 +1214,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-03/085700-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-69",
+      "id": "hist-71",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-04-03）",
       "headline": "【早报】国内外要闻简报（2026-04-03）",
@@ -1200,7 +1228,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-03/085644-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-70",
+      "id": "hist-72",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-04-03）",
       "headline": "过去24小时内筛出 5 条涉外相关发言，重点仍集中在边境、关税、地缘冲突与对外表态。整体风险信号偏谨慎，需继续观察是否出现更明确的政策承诺或冲突升级措辞。",
@@ -1214,7 +1242,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-03/085635-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-71",
+      "id": "hist-73",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-02",
       "headline": "📰 AI 博客每日精选 — 2026-04-02",
@@ -1228,7 +1256,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-02/133322-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-72",
+      "id": "hist-74",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-04-02）",
       "headline": "1) 中国加码争夺铁矿石定价权，直指全球矿业巨头",
@@ -1242,7 +1270,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-02/084357-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-73",
+      "id": "hist-75",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-01",
       "headline": "📰 AI 博客每日精选 — 2026-04-03",
@@ -1256,7 +1284,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-01/085902-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-74",
+      "id": "hist-76",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-04-01",
       "headline": "📰 AI 博客每日精选 — 2026-04-01",
@@ -1270,7 +1298,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-01/091455-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-75",
+      "id": "hist-77",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-04-01）",
       "headline": "情报异动雷达（2026-04-01）",
@@ -1284,7 +1312,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-01/091306-情报异动雷达日更.md"
     },
     {
-      "id": "hist-76",
+      "id": "hist-78",
       "job_name": "Trump国际事务追踪 08:40 邮件",
       "title": "Trump 国际事务发言追踪（2026-04-01）",
       "headline": "过去24小时内，已对公开站点进行快速检查。当前页面可访问，说明数据源在线；但自动化逐帖抽取脚本不在现成工作区内，因此本次按“快速补跑”口径给出状态性追踪。整体看，未见需要立即上调至高风险等级的明确信号，后续仍应持续关注中东、航运与涉外表态。",
@@ -1298,7 +1326,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-01/091305-trump国际事务追踪-0840-邮件.md"
     },
     {
-      "id": "hist-77",
+      "id": "hist-79",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-04-01）",
       "headline": "情报异动雷达（2026-04-01）",
@@ -1312,7 +1340,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-04-01/091250-情报异动雷达日更.md"
     },
     {
-      "id": "hist-78",
+      "id": "hist-80",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-30",
       "headline": "AI Daily Digest（6大分类）- 2026-03-30",
@@ -1326,7 +1354,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-30/123333-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-79",
+      "id": "hist-81",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-30）",
       "headline": "情报异动雷达（2026-03-30）",
@@ -1340,7 +1368,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-30/091231-情报异动雷达日更.md"
     },
     {
-      "id": "hist-80",
+      "id": "hist-82",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-30）",
       "headline": "过去24小时内，@realDonaldTrump 与国际事务相关的公开内容数量不多，但涉及中东局势、国际组织规则以及以哈停火议题。整体看，相关内容仍以“展示既有立场或成果”为主，未出现新的高强度升级表态。就市场与地缘政治情绪而言，今日国际风险偏向整体持平，但中东相关信号仍值得继续跟踪。",
@@ -1354,7 +1382,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-30/083121-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-81",
+      "id": "hist-83",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-30）",
       "headline": "**极简财经情报邮件 - 2026-03-30**",
@@ -1368,7 +1396,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-30/081653-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-82",
+      "id": "hist-84",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-30）",
       "headline": "【早报】国内外要闻简报（2026-03-30）",
@@ -1382,7 +1410,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-30/080350-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-83",
+      "id": "hist-85",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-29",
       "headline": "AI Daily Digest（6大分类）- 2026-03-29",
@@ -1396,7 +1424,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-29/123405-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-84",
+      "id": "hist-86",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-29）",
       "headline": "情报异动雷达（2026-03-29）",
@@ -1410,7 +1438,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-29/091148-情报异动雷达日更.md"
     },
     {
-      "id": "hist-85",
+      "id": "hist-87",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-29）",
       "headline": "标题：Trump 国际事务发言追踪（2026-03-29）",
@@ -1424,7 +1452,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-29/083117-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-86",
+      "id": "hist-88",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-29）",
       "headline": "1) 涉华最重要财经/政策｜中国要求菲律宾推动关系稳下来",
@@ -1438,7 +1466,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-29/081906-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-87",
+      "id": "hist-89",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-29）",
       "headline": "【早报】国内外要闻简报（2026-03-29）",
@@ -1452,7 +1480,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-29/080314-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-88",
+      "id": "hist-90",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-28）",
       "headline": "【早报】国内外要闻简报（2026-03-28）",
@@ -1466,7 +1494,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-28/090955-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-89",
+      "id": "hist-91",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-28",
       "headline": "AI Daily Digest（6大分类）- 2026-03-28",
@@ -1480,7 +1508,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-28/123228-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-90",
+      "id": "hist-92",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-28）",
       "headline": "情报异动雷达（2026-03-28）",
@@ -1494,7 +1522,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-28/091138-情报异动雷达日更.md"
     },
     {
-      "id": "hist-91",
+      "id": "hist-93",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-28）",
       "headline": "Trump 国际事务发言追踪（2026-03-28）",
@@ -1508,7 +1536,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-28/083118-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-92",
+      "id": "hist-94",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-28）",
       "headline": "**2026-03-28 极简财经情报**",
@@ -1522,7 +1550,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-28/081643-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-93",
+      "id": "hist-95",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-28）",
       "headline": "【早报】国内外要闻简报（2026-03-28）",
@@ -1536,7 +1564,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-28/080328-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-94",
+      "id": "hist-96",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-27",
       "headline": "AI Daily Digest（6大分类）- 2026-03-27",
@@ -1550,7 +1578,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-27/123314-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-95",
+      "id": "hist-97",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-27）",
       "headline": "情报异动雷达（2026-03-27）",
@@ -1564,7 +1592,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-27/091122-情报异动雷达日更.md"
     },
     {
-      "id": "hist-96",
+      "id": "hist-98",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-27）",
       "headline": "过去24小时，特朗普涉国际事务表态主要集中在伊朗、美中高层接触以及边境移民议题。对外安全上，他一面称应伊朗请求暂缓针对能源设施的打击、继续谈判，一面又持续发出强硬威胁。与此同时，他确认与习近平的北京会晤安排，并继续借北约、乌克兰与国际组织议题强化其“美国主导、盟友不足”的叙事。",
@@ -1578,7 +1606,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-27/083114-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-97",
+      "id": "hist-99",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-27）",
       "headline": "**2026-03-27 极简财经情报**",
@@ -1592,7 +1620,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-27/081632-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-98",
+      "id": "hist-100",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-27）",
       "headline": "【早报】国内外要闻简报（2026-03-27）",
@@ -1606,7 +1634,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-27/080343-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-99",
+      "id": "hist-101",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-26）",
       "headline": "**极简财经情报 | 2026-03-26**",
@@ -1620,7 +1648,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-26/091019-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-100",
+      "id": "hist-102",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-26",
       "headline": "AI Daily Digest（6大分类）- 2026-03-26",
@@ -1634,7 +1662,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-26/123322-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-101",
+      "id": "hist-103",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-26）",
       "headline": "情报异动雷达（2026-03-26）",
@@ -1648,7 +1676,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-26/091210-情报异动雷达日更.md"
     },
     {
-      "id": "hist-102",
+      "id": "hist-104",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-26）",
       "headline": "Trump 国际事务发言追踪（2026-03-26）",
@@ -1662,7 +1690,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-26/083149-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-103",
+      "id": "hist-105",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-26）",
       "headline": "**极简财经情报 | 2026-03-26**",
@@ -1676,7 +1704,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-26/081759-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-104",
+      "id": "hist-106",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-26）",
       "headline": "【早报】国内外要闻简报（2026-03-26）",
@@ -1690,7 +1718,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-26/080320-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-105",
+      "id": "hist-107",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-25",
       "headline": "AI Daily Digest（6大分类）- 2026-03-25",
@@ -1704,7 +1732,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-25/123503-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-106",
+      "id": "hist-108",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-25）",
       "headline": "情报异动雷达（2026-03-25）",
@@ -1718,7 +1746,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-25/091137-情报异动雷达日更.md"
     },
     {
-      "id": "hist-107",
+      "id": "hist-109",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-25）",
       "headline": "过去 24 小时内，@realDonaldTrump 在 Truth Social 上与国际事务直接相关的发言共 2 条，主题集中在对匈牙利总理欧尔班的公开政治支持，以及围绕非法移民与边境执法的强硬表态。整体看，今天没有出现新的战争冲突、关税制裁或国际组织议题，但在对外政治站队和跨境移民问题上，措辞仍然鲜明。就市场与外交舆论层面而言，匈牙利相关表态强化了其与民族保守派欧洲领导人的联动信号，而移民议题则延续美国对外延伸的边境政治叙事。",
@@ -1732,7 +1760,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-25/083114-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-108",
+      "id": "hist-110",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-25）",
       "headline": "每日财经情报20条（2026-03-25）",
@@ -1746,7 +1774,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-25/081749-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-109",
+      "id": "hist-111",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-25）",
       "headline": "【早报】国内外要闻简报（2026-03-25）",
@@ -1760,7 +1788,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-25/080341-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-110",
+      "id": "hist-112",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-24",
       "headline": "AI Daily Digest（6大分类）- 2026-03-24",
@@ -1774,7 +1802,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-24/123322-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-111",
+      "id": "hist-113",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-24）",
       "headline": "情报异动雷达（2026-03-24）",
@@ -1788,7 +1816,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-24/091201-情报异动雷达日更.md"
     },
     {
-      "id": "hist-112",
+      "id": "hist-114",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-24）",
       "headline": "过去24小时内，@realDonaldTrump 与国际事务直接相关的发言主要集中在两类议题：一是美伊关系与中东潜在军事行动，二是美国边境执法与移民跨境问题。整体看，其表态延续了高压、安全优先和谈判施压并行的风格。相较前一时段，今天的涉外信息量不算多，但伊朗相关表述的敏感度明显更高，对地区局势预期影响更直接。",
@@ -1802,7 +1830,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-24/083055-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-113",
+      "id": "hist-115",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-24）",
       "headline": "1) 中国电池三巨头市值飙升，伊朗战争冲击触发新能源重估",
@@ -1816,7 +1844,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-24/081731-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-114",
+      "id": "hist-116",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-24）",
       "headline": "【早报】国内外要闻简报（2026-03-24）",
@@ -1830,7 +1858,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-24/080152-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-115",
+      "id": "hist-117",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-23",
       "headline": "AI Daily Digest（6大分类）- 2026-03-23",
@@ -1844,7 +1872,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-23/123332-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-116",
+      "id": "hist-118",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-23）",
       "headline": "情报异动雷达（2026-03-23）",
@@ -1858,7 +1886,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-23/091212-情报异动雷达日更.md"
     },
     {
-      "id": "hist-117",
+      "id": "hist-119",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-23）",
       "headline": "过去 24 小时内，特朗普与国际事务相关的发言主要集中在两条主线：其一是对伊朗及霍尔木兹海峡的强硬威胁，其二是围绕非法移民、边境与机场安保的持续施压。",
@@ -1872,7 +1900,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-23/083157-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-118",
+      "id": "hist-120",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-23）",
       "headline": "每日财经情报20条（2026-03-23）",
@@ -1886,7 +1914,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-23/081816-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-119",
+      "id": "hist-121",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-23）",
       "headline": "【早报】国内外要闻简报（2026-03-23）",
@@ -1900,7 +1928,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-23/080242-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-120",
+      "id": "hist-122",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-22",
       "headline": "AI Daily Digest（6大分类）- 2026-03-22",
@@ -1914,7 +1942,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-22/123252-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-121",
+      "id": "hist-123",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-22）",
       "headline": "情报异动雷达（2026-03-22）",
@@ -1928,7 +1956,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-22/091208-情报异动雷达日更.md"
     },
     {
-      "id": "hist-122",
+      "id": "hist-124",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-22）",
       "headline": "过去24小时内，@realDonaldTrump 的国际事务相关发言主要集中在两条主线：一是继续就伊朗与霍尔木兹海峡释放强硬军事威胁，二是围绕非法移民、边境执法和涉及索马里移民的表态强化跨境安全议题。整体看，其措辞明显偏强硬，且同时触及中东军事风险与移民执法升级，外部政策不确定性仍在抬升。",
@@ -1942,7 +1970,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-22/083122-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-123",
+      "id": "hist-125",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-22）",
       "headline": "注：今日 FT 公开/RSS访问受限，Reuters RSS 域名解析失败，以下以可抓取的 Bloomberg、CNBC、MarketWatch、Nikkei Asia 等来源补足20条。",
@@ -1956,7 +1984,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-22/081854-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-124",
+      "id": "hist-126",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-22）",
       "headline": "【早报】国内外要闻简报（2026-03-22）",
@@ -1970,7 +1998,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-22/080350-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-125",
+      "id": "hist-127",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-21",
       "headline": "🤖 AI / ML",
@@ -1984,7 +2012,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-21/123320-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-126",
+      "id": "hist-128",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-21）",
       "headline": "情报异动雷达（2026-03-21）",
@@ -1998,7 +2026,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-21/091137-情报异动雷达日更.md"
     },
     {
-      "id": "hist-127",
+      "id": "hist-129",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-21）",
       "headline": "过去24小时内，特朗普与国际事务相关的发言集中在伊朗、中东军事行动、霍尔木兹海峡安全以及北约责任分担。",
@@ -2012,7 +2040,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-21/083209-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-128",
+      "id": "hist-130",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-21）",
       "headline": "每日财经情报20条（2026-03-21）",
@@ -2026,7 +2054,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-21/081928-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-129",
+      "id": "hist-131",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-21）",
       "headline": "【早报】国内外要闻简报（2026-03-21）",
@@ -2040,7 +2068,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-21/080307-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-130",
+      "id": "hist-132",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-19",
       "headline": "AI Daily Digest（6大分类）- 2026-03-19",
@@ -2054,7 +2082,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-19/123316-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-131",
+      "id": "hist-133",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-19）",
       "headline": "情报异动雷达（2026-03-19）",
@@ -2068,7 +2096,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-19/091145-情报异动雷达日更.md"
     },
     {
-      "id": "hist-132",
+      "id": "hist-134",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-19）",
       "headline": "一、今日概览（2-4句）",
@@ -2082,7 +2110,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-19/083141-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-133",
+      "id": "hist-135",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-19）",
       "headline": "1) 中国利率市场释放“宽松预期降温”信号",
@@ -2096,7 +2124,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-19/081756-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-134",
+      "id": "hist-136",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-19）",
       "headline": "【早报】国内外要闻简报（2026-03-19）",
@@ -2110,7 +2138,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-19/080442-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-135",
+      "id": "hist-137",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-18",
       "headline": "AI Daily Digest（6大分类）- 2026-03-18",
@@ -2124,7 +2152,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-18/123205-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-136",
+      "id": "hist-138",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-18）",
       "headline": "情报异动雷达（2026-03-18）",
@@ -2138,7 +2166,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-18/091114-情报异动雷达日更.md"
     },
     {
-      "id": "hist-137",
+      "id": "hist-139",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-18）",
       "headline": "Trump 国际事务发言追踪（2026-03-18）",
@@ -2152,7 +2180,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-18/083222-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-138",
+      "id": "hist-140",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-18）",
       "headline": "【早报】国内外要闻简报（2026-03-18）",
@@ -2166,7 +2194,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-18/080246-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-139",
+      "id": "hist-141",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-17",
       "headline": "AI Daily Digest（6大分类）- 2026-03-17",
@@ -2180,7 +2208,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-17/123256-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-140",
+      "id": "hist-142",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-17）",
       "headline": "情报异动雷达（2026-03-17）",
@@ -2194,7 +2222,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-17/091147-情报异动雷达日更.md"
     },
     {
-      "id": "hist-141",
+      "id": "hist-143",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-17）",
       "headline": "标题：Trump 国际事务发言追踪（2026-03-17）",
@@ -2208,7 +2236,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-17/083140-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-142",
+      "id": "hist-144",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-17）",
       "headline": "1) 中国与霍尔木兹安全议题被动卷入，中美峰会延后",
@@ -2222,7 +2250,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-17/081825-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-143",
+      "id": "hist-145",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-17）",
       "headline": "【早报】国内外要闻简报（2026-03-17）",
@@ -2236,7 +2264,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-17/080246-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-144",
+      "id": "hist-146",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-16",
       "headline": "AI Daily Digest（6大分类）- 2026-03-16",
@@ -2250,7 +2278,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-16/123727-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-145",
+      "id": "hist-147",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-16）",
       "headline": "情报异动雷达（2026-03-16）",
@@ -2264,7 +2292,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-16/091155-情报异动雷达日更.md"
     },
     {
-      "id": "hist-146",
+      "id": "hist-148",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-16）",
       "headline": "标题：Trump 国际事务发言追踪（2026-03-16）",
@@ -2278,7 +2306,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-16/083100-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-147",
+      "id": "hist-149",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-16）",
       "headline": "1) 中美巴黎会谈释放缓和信号：中方据称愿增加采购美国农产品",
@@ -2292,7 +2320,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-16/081826-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-148",
+      "id": "hist-150",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-16）",
       "headline": "【早报】国内外要闻简报（2026-03-16）",
@@ -2306,7 +2334,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-16/080153-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-149",
+      "id": "hist-151",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-15",
       "headline": "AI Daily Digest（6大分类）- 2026-03-15",
@@ -2320,7 +2348,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-15/123301-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-150",
+      "id": "hist-152",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-15）",
       "headline": "情报异动雷达（2026-03-15）",
@@ -2334,7 +2362,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-15/091216-情报异动雷达日更.md"
     },
     {
-      "id": "hist-151",
+      "id": "hist-153",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-15）",
       "headline": "标题：Trump 国际事务发言追踪（2026-03-15）",
@@ -2348,7 +2376,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-15/083124-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-152",
+      "id": "hist-154",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-15）",
       "headline": "每日财经情报20条（2026-03-15）",
@@ -2362,7 +2390,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-15/081753-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-153",
+      "id": "hist-155",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-15）",
       "headline": "【早报】国内外要闻简报（2026-03-15）",
@@ -2376,7 +2404,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-15/080326-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-154",
+      "id": "hist-156",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-14",
       "headline": "🤖 AI / ML",
@@ -2390,7 +2418,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-14/123602-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-155",
+      "id": "hist-157",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-14）",
       "headline": "情报异动雷达（2026-03-14）",
@@ -2404,7 +2432,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-14/091117-情报异动雷达日更.md"
     },
     {
-      "id": "hist-156",
+      "id": "hist-158",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-14）",
       "headline": "过去24小时内，特朗普账号中可归入国际事务范畴的发言共2条，均集中在伊朗、以色列、中东局势与霍尔木兹海峡航运安全。整体措辞极为强硬，既宣称美军对伊朗目标实施毁灭性打击，也明确发出针对伊朗进一步行动的威慑信号。相关表态同时涉及地区安全、能源基础设施与国际航运通道，外溢风险明显上升。",
@@ -2418,7 +2446,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-14/083048-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-157",
+      "id": "hist-159",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-14）",
       "headline": "1) TikTok 美国交易落地并传出百亿美元“交易费”，涉华平台资产重估加速",
@@ -2432,7 +2460,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-14/081917-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-158",
+      "id": "hist-160",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-14）",
       "headline": "【早报】国内外要闻简报（2026-03-14）",
@@ -2446,7 +2474,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-14/080739-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-159",
+      "id": "hist-161",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-13）",
       "headline": "情报异动雷达（2026-03-13）",
@@ -2460,7 +2488,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-13/091136-情报异动雷达日更.md"
     },
     {
-      "id": "hist-160",
+      "id": "hist-162",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-13）",
       "headline": "标题：Trump 国际事务发言追踪（2026-03-13）",
@@ -2474,7 +2502,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-13/083128-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-161",
+      "id": "hist-163",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-13）",
       "headline": "1) 中国加快原油储备扩容，应对伊朗冲突带来的供应风险",
@@ -2488,7 +2516,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-13/081647-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-162",
+      "id": "hist-164",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-13）",
       "headline": "【早报】国内外要闻简报（2026-03-13）",
@@ -2502,7 +2530,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-13/080456-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-163",
+      "id": "hist-165",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-12",
       "headline": "AI Daily Digest（6大分类）- 2026-03-12",
@@ -2516,7 +2544,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-12/123924-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-164",
+      "id": "hist-166",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-12）",
       "headline": "【早报】国内外要闻简报（2026-03-12）",
@@ -2530,7 +2558,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-12/091350-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-165",
+      "id": "hist-167",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-12）",
       "headline": "情报异动雷达（2026-03-12）",
@@ -2544,7 +2572,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-12/091240-情报异动雷达日更.md"
     },
     {
-      "id": "hist-166",
+      "id": "hist-168",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-12）",
       "headline": "过去24小时内，特朗普与国际事务相关的发言主要集中在三条线索：一是转发涉及“打击伊朗”的民调内容，延续对中东安全议题的强硬姿态；二是再次强调关税、供应链和“最惠国”药价安排，将对外贸易工具与国内制造业回流挂钩；三是在多条背书帖中反复突出边境安全、非法移民和“移民犯罪”，显示其跨境与移民议题仍保持高强度表达。整体看，涉外表态以强硬、施压和安全优先为主。",
@@ -2558,7 +2586,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-12/083110-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-167",
+      "id": "hist-169",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-12）",
       "headline": "每日财经情报20条（2026-03-12）",
@@ -2572,7 +2600,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-12/081951-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-168",
+      "id": "hist-170",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-11",
       "headline": "AI Daily Digest（6大分类）- 2026-03-11",
@@ -2586,7 +2614,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-11/123248-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-169",
+      "id": "hist-171",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-11）",
       "headline": "情报异动雷达（2026-03-11）",
@@ -2600,7 +2628,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-11/091139-情报异动雷达日更.md"
     },
     {
-      "id": "hist-170",
+      "id": "hist-172",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-11）",
       "headline": "过去24小时内，特朗普与国际事务相关的发言主要集中在伊朗—霍尔木兹海峡局势，以及一则涉及印度投资的能源项目表态。整体语气明显偏强硬，尤其在海峡航运与对伊军事威慑上连续加码。除直接威胁外，他还通过转发民调为对伊打击争取国内支持。相比之下，涉印内容更多体现为将跨境投资纳入“能源安全+出口”的政治叙事。",
@@ -2614,7 +2642,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-11/083136-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-171",
+      "id": "hist-173",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-11）",
       "headline": "1) 涉华最重要财经/政策｜中方不满习特会筹备仓促，峰会议题或被压缩至贸易交易",
@@ -2628,7 +2656,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-11/081813-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-172",
+      "id": "hist-174",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-11）",
       "headline": "【早报】国内外要闻简报（2026-03-11）",
@@ -2642,7 +2670,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-11/080405-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-173",
+      "id": "hist-175",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-10",
       "headline": "AI Daily Digest（6大分类）- 2026-03-10",
@@ -2656,7 +2684,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-10/123525-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-174",
+      "id": "hist-176",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-09",
       "headline": "AI Daily Digest（6大分类）- 2026-03-09",
@@ -2670,7 +2698,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-09/123749-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-175",
+      "id": "hist-177",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-09）",
       "headline": "情报异动雷达（2026-03-09）",
@@ -2684,7 +2712,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-09/091200-情报异动雷达日更.md"
     },
     {
-      "id": "hist-176",
+      "id": "hist-178",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-09）",
       "headline": "过去24小时内，@realDonaldTrump 在可见发言中，国际事务相关内容较少，主要聚焦伊朗核威胁与中东安全议题。整体表态延续强硬安全叙事，将短期油价波动与对伊朗施压直接挂钩。与前几日相比，今日新增涉外信号不多，但措辞依然偏强硬。",
@@ -2698,7 +2726,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-09/083043-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-177",
+      "id": "hist-179",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-09）",
       "headline": "注：今晨Reuters/WSJ抓取受限，FT及其他公开RSS正常纳入。",
@@ -2712,7 +2740,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-09/082552-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-178",
+      "id": "hist-180",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-09）",
       "headline": "【早报】国内外要闻简报（2026-03-09）",
@@ -2726,7 +2754,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-09/080549-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-179",
+      "id": "hist-181",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-08",
       "headline": "AI Daily Digest（6大分类）- 2026-03-08",
@@ -2740,7 +2768,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-08/123237-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-180",
+      "id": "hist-182",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-08）",
       "headline": "情报异动雷达（2026-03-08）",
@@ -2754,7 +2782,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-08/091148-情报异动雷达日更.md"
     },
     {
-      "id": "hist-181",
+      "id": "hist-183",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-08）",
       "headline": "过去24小时内，@realDonaldTrump 涉及国际事务的公开发言主要集中在中东局势与盟友协同作战议题。其表态对伊朗使用了高度强硬、带有升级威慑意味的措辞，同时对英国“迟到介入”中东行动表达不满。整体语气较前一日更具对抗性，释放出冲突叙事继续强化的信号。",
@@ -2768,7 +2796,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-08/083047-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-182",
+      "id": "hist-184",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-08）",
       "headline": "每日财经情报20条（2026-03-08）",
@@ -2782,7 +2810,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-08/081720-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-183",
+      "id": "hist-185",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-08）",
       "headline": "【早报】国内外要闻简报（2026-03-08）",
@@ -2796,7 +2824,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-08/080403-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-184",
+      "id": "hist-186",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-07",
       "headline": "AI Daily Digest（6大分类）- 2026-03-07",
@@ -2810,7 +2838,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-07/123236-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-185",
+      "id": "hist-187",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-07）",
       "headline": "情报异动雷达（2026-03-07）",
@@ -2824,7 +2852,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-07/091221-情报异动雷达日更.md"
     },
     {
-      "id": "hist-186",
+      "id": "hist-188",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-07）",
       "headline": "标题：Trump 国际事务发言追踪（2026-03-07）",
@@ -2838,7 +2866,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-07/083137-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-187",
+      "id": "hist-189",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-07）",
       "headline": "每日财经情报20条（2026-03-07）",
@@ -2852,7 +2880,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-07/081732-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-188",
+      "id": "hist-190",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-06",
       "headline": "AI Daily Digest（6大分类）- 2026-03-06",
@@ -2866,7 +2894,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-06/123248-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-189",
+      "id": "hist-191",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-06）",
       "headline": "情报异动雷达（2026-03-06）",
@@ -2880,7 +2908,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-06/091151-情报异动雷达日更.md"
     },
     {
-      "id": "hist-190",
+      "id": "hist-192",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-06）",
       "headline": "一、今日概览（2-4句）",
@@ -2894,7 +2922,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-06/083109-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-191",
+      "id": "hist-193",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-06）",
       "headline": "每日财经情报20条（2026-03-06）",
@@ -2908,7 +2936,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-06/081634-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-192",
+      "id": "hist-194",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-06）",
       "headline": "【早报】国内外要闻简报（2026-03-06）",
@@ -2922,7 +2950,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-06/080626-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-193",
+      "id": "hist-195",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-05",
       "headline": "AI Daily Digest（6大分类）- 2026-03-05",
@@ -2936,7 +2964,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-05/123222-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-194",
+      "id": "hist-196",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-05）",
       "headline": "情报异动雷达（2026-03-05）",
@@ -2950,7 +2978,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-05/091132-情报异动雷达日更.md"
     },
     {
-      "id": "hist-195",
+      "id": "hist-197",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-05）",
       "headline": "每日财经情报20条（2026-03-05）",
@@ -2964,7 +2992,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-05/081647-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-196",
+      "id": "hist-198",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-05）",
       "headline": "【早报】国内外要闻简报（2026-03-05）",
@@ -2978,7 +3006,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-05/080451-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-197",
+      "id": "hist-199",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-04",
       "headline": "AI Daily Digest（6大分类）- 2026-03-04",
@@ -2992,7 +3020,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-04/123311-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-198",
+      "id": "hist-200",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-04）",
       "headline": "情报异动雷达（2026-03-04）",
@@ -3006,7 +3034,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-04/091216-情报异动雷达日更.md"
     },
     {
-      "id": "hist-199",
+      "id": "hist-201",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-04）",
       "headline": "过去24小时内，特朗普涉外发言集中在中东军事行动后续、海上能源通道安全、北约表态以及对华关税与贸易叙事。整体措辞偏强硬，强调美国以军事与政策工具维持外部影响力。与伊朗相关表态和霍尔木兹海峡航运安排提高了地缘安全敏感度。经贸层面继续突出对华逆差与关税“胜利”框架。",
@@ -3020,7 +3048,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-04/083123-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-200",
+      "id": "hist-202",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-04）",
       "headline": "1) 涉华最重要财经/政策",
@@ -3034,7 +3062,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-04/081642-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-201",
+      "id": "hist-203",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-04）",
       "headline": "【早报】国内外要闻简报（2026-03-04）",
@@ -3048,7 +3076,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-04/080442-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-202",
+      "id": "hist-204",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-03",
       "headline": "AI Daily Digest（6大分类）- 2026-03-03",
@@ -3062,7 +3090,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-03/123409-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-203",
+      "id": "hist-205",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-03）",
       "headline": "情报异动雷达（2026-03-03）",
@@ -3076,7 +3104,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-03/091131-情报异动雷达日更.md"
     },
     {
-      "id": "hist-204",
+      "id": "hist-206",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-03）",
       "headline": "一、今日概览（2-4句）",
@@ -3090,7 +3118,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-03/083150-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-205",
+      "id": "hist-207",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-03）",
       "headline": "每日财经情报20条（2026-03-03）",
@@ -3104,7 +3132,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-03/081733-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-206",
+      "id": "hist-208",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-03）",
       "headline": "【早报】国内外要闻简报（2026-03-03）",
@@ -3118,7 +3146,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-03/080724-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-207",
+      "id": "hist-209",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-02",
       "headline": "AI Daily Digest（6大分类）- 2026-03-02",
@@ -3132,7 +3160,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-02/123144-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-208",
+      "id": "hist-210",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-02）",
       "headline": "情报异动雷达（2026-03-02）",
@@ -3146,7 +3174,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-02/091203-情报异动雷达日更.md"
     },
     {
-      "id": "hist-209",
+      "id": "hist-211",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-02）",
       "headline": "过去24小时未能从RSS抓取到可用数据，且页面回退未获得稳定结构化内容。",
@@ -3160,7 +3188,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-02/083102-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-210",
+      "id": "hist-212",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-02）",
       "headline": "每日财经情报20条（2026-03-02）",
@@ -3174,7 +3202,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-02/081619-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-211",
+      "id": "hist-213",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-02）",
       "headline": "【早报】国内外要闻简报（2026-03-02）",
@@ -3188,7 +3216,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-02/080238-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-212",
+      "id": "hist-214",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-03-01",
       "headline": "AI Daily Digest（6大分类）- 2026-03-01",
@@ -3202,7 +3230,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-01/123150-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-213",
+      "id": "hist-215",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-03-01）",
       "headline": "情报异动雷达（2026-03-01）",
@@ -3216,7 +3244,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-01/091123-情报异动雷达日更.md"
     },
     {
-      "id": "hist-214",
+      "id": "hist-216",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-03-01）",
       "headline": "一、今日概览（2-4句）",
@@ -3230,7 +3258,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-01/083108-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-215",
+      "id": "hist-217",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-03-01）",
       "headline": "每日财经情报20条（2026-03-01）",
@@ -3244,7 +3272,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-01/081714-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-216",
+      "id": "hist-218",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-03-01）",
       "headline": "【早报】国内外要闻简报（2026-03-01）",
@@ -3258,7 +3286,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-03-01/080436-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-217",
+      "id": "hist-219",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-02-28",
       "headline": "AI Daily Digest（6大分类）- 2026-02-28",
@@ -3272,7 +3300,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-28/123156-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-218",
+      "id": "hist-220",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-02-28）",
       "headline": "情报异动雷达（2026-02-28）",
@@ -3286,7 +3314,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-28/091655-情报异动雷达日更.md"
     },
     {
-      "id": "hist-219",
+      "id": "hist-221",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-02-28）",
       "headline": "【早报】国内外要闻简报（2026-02-28）",
@@ -3300,7 +3328,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-28/091518-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-220",
+      "id": "hist-222",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-02-28）",
       "headline": "过去24小时内，特朗普在涉外议题上主要聚焦关税与国际贸易分配问题，语气延续强硬。其表态强调美国在跨国经济关系中的“受损叙事”，并主张通过司法或政策手段修正结果。整体上，经贸摩擦相关言论权重上升。",
@@ -3314,7 +3342,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-28/091052-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-221",
+      "id": "hist-223",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-02-28）",
       "headline": "1) 中国暂停对加拿大菜籽粕关税，贸易缓和信号增强",
@@ -3328,7 +3356,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-28/090954-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-222",
+      "id": "hist-224",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-02-27",
       "headline": "AI Daily Digest（6大分类）- 2026-02-27",
@@ -3342,7 +3370,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-27/123339-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-223",
+      "id": "hist-225",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-02-27）",
       "headline": "情报异动雷达（2026-02-27）",
@@ -3356,7 +3384,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-27/091143-情报异动雷达日更.md"
     },
     {
-      "id": "hist-224",
+      "id": "hist-226",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-02-27）",
       "headline": "一、今日概览（2-4句）",
@@ -3370,7 +3398,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-27/083109-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-225",
+      "id": "hist-227",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-02-27）",
       "headline": "1) 涉华最重要财经/政策：英伟达称对华AI芯片仍未实质放量，担忧本土替代加速",
@@ -3384,7 +3412,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-27/081709-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-226",
+      "id": "hist-228",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-02-27）",
       "headline": "【早报】国内外要闻简报（2026-02-27）",
@@ -3398,7 +3426,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-27/080250-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-227",
+      "id": "hist-229",
       "job_name": "AI Daily Digest 5AM email (6 categories)",
       "title": "AI Daily Digest（6大分类）- 2026-02-26",
       "headline": "AI Daily Digest（6大分类）- 2026-02-26",
@@ -3412,7 +3440,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-26/123202-ai-daily-digest-5am-email-6-categories.md"
     },
     {
-      "id": "hist-228",
+      "id": "hist-230",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-02-26）",
       "headline": "情报异动雷达（2026-02-26）",
@@ -3426,7 +3454,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-26/091109-情报异动雷达日更.md"
     },
     {
-      "id": "hist-229",
+      "id": "hist-231",
       "job_name": "Trump国际事务追踪 08:30 邮件 [hermes]",
       "title": "Trump 国际事务发言追踪（2026-02-26）",
       "headline": "过去24小时内共发现 2 条国际事务相关发言。",
@@ -3440,7 +3468,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-26/085108-trump国际事务追踪-0830-邮件.md"
     },
     {
-      "id": "hist-230",
+      "id": "hist-232",
       "job_name": "Trump国际事务追踪 08:40 邮件",
       "title": "Trump 国际事务发言追踪（2026-02-26）",
       "headline": "标题：Trump 国际事务发言追踪（2026-02-26）",
@@ -3454,7 +3482,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-26/083058-trump国际事务追踪-0840-邮件.md"
     },
     {
-      "id": "hist-231",
+      "id": "hist-233",
       "job_name": "Bloomberg+FT 财经简报 08:15 邮件 [hermes]",
       "title": "每日财经情报20条（2026-02-26）",
       "headline": "1) 涉华最重要财经/政策：百度单日蒸发约110亿美元，AI估值兑现承压",
@@ -3468,7 +3496,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-26/081742-bloombergft-财经简报-0815-邮件.md"
     },
     {
-      "id": "hist-232",
+      "id": "hist-234",
       "job_name": "Morning latest news briefing (Email QQ) [hermes]",
       "title": "【早报】国内外要闻简报（2026-02-26）",
       "headline": "【早报】国内外要闻简报（2026-02-26）",
@@ -3482,7 +3510,7 @@ window.DASHBOARD_DATA = {
       "latest_digest_file": "/root/.openclaw/workspace/news-archive/archive/2026-02-26/080420-morning-latest-news-briefing-email-qq.md"
     },
     {
-      "id": "hist-233",
+      "id": "hist-235",
       "job_name": "情报异动雷达（日更）[hermes]",
       "title": "情报异动雷达（2026-02-25）",
       "headline": "情报异动雷达（2026-02-25）",
